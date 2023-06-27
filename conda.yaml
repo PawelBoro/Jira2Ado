@@ -1,0 +1,25 @@
+name: j2a
+channels:
+  - pkgs/main
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # Dev
+      - ipykernel
+      - mypy
+      - notebook
+      - pydocstyle
+      - types-requests
+      - python-dotenv
+      # Other
+      - PyJWT
+      # Machine Learning
+      - matplotlib
+      - pandas
+      - scikit-learn
+      # AzureML v2
+      - azure-ai-ml
+      - azure-ai-ml[designer]
+      - azure-identity
+      - azure-mgmt-resource
