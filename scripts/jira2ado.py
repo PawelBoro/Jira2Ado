@@ -12,13 +12,13 @@ https://stackoverflow.com/questions/49614493/feth-jira-details-in-excel-using-py
 https://community.atlassian.com/t5/Jira-questions/Importing-issues-from-JIRA-to-Excel-using-API/qaq-p/1943319
 
 conda activate jta
-python -m jira2ado.py
+python -m jira2ado
 """
 from jira.client import JIRA
-from ./.credentials/credentials import email, api_token, server, jql
+from creds.credentials import email, api_token, server, jql
 import pandas as pd
 import sqlite3
-import xlsxwriter
+#import xlsxwriter
 
 print("Age:", jql)
-print("email:", email)
+print("email:", email, jql)
