@@ -14,25 +14,10 @@ https://community.atlassian.com/t5/Jira-questions/Importing-issues-from-JIRA-to-
 conda activate jta
 python -m jira2adov2
 """
-# pip install jira
-# pip install atlassian-python-api
-import jira.client
-import pandas as pd
-import sqlite3
-
+import csv
 from atlassian import Jira
-from jira.client import JIRA
-from creds.credentials import email, api_token, server, jql
-# import xlsxwriter
-
-
-# Authentication
-# basic_auth=(email, api_token)
-# print(basic_auth)
-
-# Get issues from Jira in JSON format
-# jira = JIRA(options={'server': server}, basic_auth=(email, api_token))
-# jira_issues = jira.search_issues(jql)
+# from jira.client import JIRA
+from creds.credentials import email, api_token
 
 # Another try to log in and Get issues from jql search
 jira = Jira(
@@ -41,45 +26,34 @@ jira = Jira(
     password=api_token,
     cloud=True)
 
-jql_request = 'project = "AI Factory ITS" AND assignee in (61d425a20586a2006949ffee) AND updated >= -4w'
+jql_request = 'project = "AIF ITS Microsoft" AND assignee in (61d425a20586a2006949ffee, 5dde91bb7eb2280d03c98dd0, 63c927cee28ec74364cc8f59, 6405ed610e0ddcdce18e3980, 62c7ec27b6357aecd7c7e693) AND updated >= -4w'
 issues = jira.jql(jql_request)
 print(issues)
-file = jira.csv(jql_request)
 
-file_decoded = file.decode()
+file_csv = jira.csv(jql_request)
 
-import csv
-
-# Assuming 'decoded_data' contains the decoded string
+file_decoded = file_csv.decode()
 
 # Specify the output file path
-output_file = 'output2.csv'
+output_file = 'output3.csv'
 
 # Split the decoded data into lines
 lines = file_decoded.split('\n')
 
 # Write the lines to a CSV file
-with open(output_file, 'w', newline='') as file:
+with open(output_file, mode='w') as file:
     writer = csv.writer(file)
     for line in lines:
         writer.writerow(line.split(','))
 
-# import csv
-# file.csv
+output_file = 'output4.csv'
+lines = file_decoded.split('\n')
 
-
-# jira.projects(included_archived=None)
-# jira.get_all_projects(included_archived=None)
-
-import csv
-
-filename = "data.csv"  # Replace with the actual filename
-
-with open(filename, "rb") as file:
-    data = file.read().decode("utf-8-sig")  # Decode bytes to string, remove BOM if present
-
-reader = csv.reader(data.splitlines())
-header = next(reader)  # Read the header
-
-for row in reader:
-    print(row)  # Process each row as needed
+with open(output_file, mode='w', newline='') as file:
+    writer = csv.writer(file)
+    for line in lines:
+        values = line.split(',')
+        if values:
+            writer.writerow(values)
+        else:
+            print(f"Skipping line: {line}")
