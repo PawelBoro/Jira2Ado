@@ -1,4 +1,4 @@
-name: j2a
+name: j2a_v2
 channels:
   - pkgs/main
 dependencies:

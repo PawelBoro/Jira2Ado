@@ -1,4 +1,4 @@
-name: j2a
+name: j2a_v2
 channels:
   - pkgs/main
 dependencies:
@@ -12,6 +12,9 @@ dependencies:
       - pydocstyle
       - types-requests
       - python-dotenv
+      - jira
+      - jiraone
+      - atlassian-python-api
       # Other
       - PyJWT
       # Machine Learning
