@@ -53,13 +53,13 @@ import csv
 # Assuming 'decoded_data' contains the decoded string
 
 # Specify the output file path
-output_file = 'output.csv'
+output_file = 'output2.csv'
 
 # Split the decoded data into lines
 lines = file_decoded.split('\n')
 
 # Write the lines to a CSV file
-with open(output_file, 'w', newline='', encoding='utf-8') as file:
+with open(output_file, 'w', newline='') as file:
     writer = csv.writer(file)
     for line in lines:
         writer.writerow(line.split(','))
