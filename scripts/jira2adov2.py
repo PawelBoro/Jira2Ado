@@ -35,7 +35,7 @@ file_csv = jira.csv(jql_request)
 file_decoded = file_csv.decode()
 
 # Specify the output file path
-output_file = 'output3.csv'
+output_file = 'output4.csv'
 
 # Split the decoded data into lines
 lines = file_decoded.split('\n')
@@ -57,3 +57,11 @@ with open(output_file, mode='w', newline='') as file:
             writer.writerow(values)
         else:
             print(f"Skipping line: {line}")
+
+pip install openpyxl
+import pandas as pd
+from io impot StringIO
+test = StringIO(file_decoded)
+outputFile = pd.read_csv(test, sep=",")
+outputFile.to_excel('output.xlsx')
+type(file_decoded)
