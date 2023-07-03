@@ -1,4 +1,4 @@
-name: j2a_v2
+name: j2a_v3
 channels:
   - pkgs/main
 dependencies:
@@ -14,6 +14,7 @@ dependencies:
       - jira
       - jiraone
       - atlassian-python-api
+      - openpyxl
       # Machine Learning
       - matplotlib
       - pandas
