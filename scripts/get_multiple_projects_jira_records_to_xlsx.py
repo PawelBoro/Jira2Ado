@@ -36,7 +36,8 @@ for project_name in project_names:
     jql_request = (
         f'project = "{project_name}" AND assignee in '
         "(61d425a20586a2006949ffee, 5dde91bb7eb2280d03c98dd0, 63c927cee28ec74364cc8f59,"
-        " 6405ed610e0ddcdce18e3980, 62c7ec27b6357aecd7c7e693) AND updated >= -4w"
+        " 6405ed610e0ddcdce18e3980, 62c7ec27b6357aecd7c7e693, 61029d08627b560068c8a078,"
+        " 621c9573932f0f0071659512) AND updated >= -4w"
     )
 
     # Collect all issues from the Jira Cloud to Json
