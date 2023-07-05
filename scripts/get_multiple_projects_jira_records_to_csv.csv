@@ -1,0 +1,1061 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Custom field (AIF External Dependency),Custom field (AIF Innovation Potential),Custom field (AIF Sufficiency),Custom field (AIF Value),Custom field (Acceptance Criteria),Custom field (Access to AIAPPS Platform with ability to*),Custom field (Affected services),Custom field (Audience Segment ID),Custom field (Audience Type),Custom field (BCA Started),Custom field (Baseline end date),Custom field (Baseline start date),Custom field (Benefit hypothesis),Custom field (Business Value [MM$]),Custom field (CSE FTE Engaged),Custom field (Categories | Regions),Custom field (Category),Custom field (Chance of success),Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Committed),Custom field (Compass),Custom field (Concerned Jira or Confluence URLs),Custom field (Concerned users - P&G shortnames only),Custom field (DS ELT Contact),Custom field (Dependency Status),Custom field (Dependency Type),Custom field (Development),Custom field (Domain),Custom field (End date),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Facebook Ad Account),Custom field (Have you read the documentation?),Custom field (Impact),Custom field (Issue color),Custom field (Key Sponsor),Custom field (Lead DS),Custom field (Locked forms),Custom field (Model Risk Officer),Custom field (NSR Jira Ticket),Custom field (Needed by),Custom field (Open forms),Custom field (Persons requiring access or project admins (P&G emails are required!)),"Custom field (Provide request details, e.g. application name:)",Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Requesting team),Custom field (Requestor),Custom field (Risk),Satisfaction rating,Custom field (Stage),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Success Metris),Custom field (Target end),Custom field (Target start),Custom field (Task progress),Custom field (Team),Custom field (Tier),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Total forms),Custom field (Type of Product),Custom field (Value),Custom field (What is your issue about?),Custom field ([CHART] Date of First Response),Custom field (itAccess group to map),Comment,Comment.1,Status Category,Watchers.1,Watchers Id.1,Outward issue link (Cloners),Custom field (Epic Link),Epic Link Summary,Sprint,Sprint.1,Comment.2,Parent,Parent summary,Inward issue link (Cloners),Attachment.1,Attachment.2,Attachment.3,Attachment.4,Custom field (Reviewers),Custom field (Reviewers)Id,Inward issue link (Relates),Inward issue link (Relates).1,"Custom field (Support required for Jira, Confluence or both?)",Comment.3,Comment.4,Comment.5,Labels,Inward issue link (Blocks),Inward issue link (Cloners).1,Inward issue link (Cloners).2,Inward issue link (Gantt End to Start),Inward issue link (Gantt End to Start).1,Outward issue link (Gantt End to Start),Outward issue link (Gantt End to Start).1,Outward issue link (Relates),Outward issue link (Relates).1,Outward issue link (Relates).2,Sprint.2,Sprint.3,Sprint.4,Comment.6,Comment.7,Comment.8,Comment.9,Comment.10,Comment.11,Comment.12,Fix versions,Labels.1,Attachment.5,Attachment.6,Attachment.7,Attachment.8,Custom field (AIF Internal Dependency),Inward issue link (Problem/Incident),Outward issue link (Relates).3,Outward issue link (Relates).4,Outward issue link (Relates).5
+TSS Remediation PI.AMJ.23,AIAPPS-2220,114851,Story,Done,AIAPPS,AIAPPS,software,Daniel Alarcon,60462dca3ab18c0068b8d27d,,,Medium,Done,Szymon Osiecki,61029d08627b560068c8a078,Natalia Klimpel,62557e9c410206006e966da3,Natalia Klimpel,62557e9c410206006e966da3,09/Mar/23 8:34 AM,29/Jun/23 9:35 AM,05/Jul/23 8:18 AM,29/Jun/23 9:35 AM,,0,"Technical Security Standards (TSS) are requirements that P&G has set to help ensure the overall security posture of any environment within P&G. These can relate to Operating Systems, Databases, Servers, Cloud Configurations, Third-party interaction, and more.
+
+[Technical Security Standards at P&G|https://pgone.sharepoint.com/sites/WISE/Pages/PGSecurity/Standards.aspx?OR=Teams-HL&CT=1659611942823&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMjA3MDMwMDgxNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOnRydWV9]
+
+ 
+
+*D&A has implemented* [http://Wiz.io|http://Wiz.io|smart-link]  *to help track TSS gaps.*
+
+*What it does?*
+
+[http://Wiz.io|http://Wiz.io|smart-link]  is a security software that monitors insecure protocols, vulnerabilities, Technical Security Standard requirements, and misconfigurations.
+
+*How it works?*
+
+[http://Wiz.io|http://Wiz.io|smart-link]  uses API calls combined with a security framework to report on issues.
+
+*Why we use it?*
+
+In order to more proactively monitor security issues within our space and ensure the timely remediation of these issues.
+
+*Who this impacts?*
+
+Anyone in D&A responsible for the development, maintenance, or ownership of a resource or the components of those resources.
+
+*When it will be in effect?*
+
+[http://Wiz.io|http://Wiz.io|smart-link]  is already running in the environment. The security team has worked with the various platforms to set the expectations for use of the tool and is continuing to refine this process.
+
+ 
+
+[http://Wiz.io|http://Wiz.io|smart-link] 
+
+
+
+[{color:#bf2600}+job aid link+{color}|https://pgone.sharepoint.com/sites/CDL-DHDataSecurityandRiskManagement/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FCDL%2DDHDataSecurityandRiskManagement%2FShared%20Documents%2FTechnical%20Security%20Standard%20Governance%20%28Wiz%2Eio%29%2FWiz%2Eio%20Job%20Aid%20%2D%20Data%20and%20Analytics%2Epdf&parent=%2Fsites%2FCDL%2DDHDataSecurityandRiskManagement%2FShared%20Documents%2FTechnical%20Security%20Standard%20Governance%20%28Wiz%2Eio%29&p=true&ga=1]",,Natalia Klimpel,62557e9c410206006e966da3,,,,,,,,,09/Mar/23 8:36 AM;ug:00ac896d-3a43-4cdb-9d37-a563f002d638;AIF - AI Apps.xlsx;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/21166,,,,,"HIGH - 30 DAYS
+
+MEDIUM - 90 DAYS
+
+LOW - 180 DAYS
+
+ 
+
+Critical & High severity timelines are the default values assigned by ITS.
+
+ 
+
+Medium & Low severity timelines were established based on review of:
+
+•Issue types 
+
+•Risk presented
+
+•Alignment with PI Planning.",,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0cjtf:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,"09/Mar/23 8:38 AM;62557e9c410206006e966da3;Hey [~accountid:60462dca3ab18c0068b8d27d],
+I was asked by Robert Walo to create a ticket on security checkup for AIAPPS. Hope you don’t mind I have messed up with your Backlog :)
+
+ ",09/Mar/23 8:41 AM;62557e9c410206006e966da3;Security contact person Robert Walo,Done,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create a test environment for testing the Pyrogai,APE-353,131716,Story,In Progress,APE,AIF Pipeline Engine,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,02/Jun/23 5:13 AM,03/Jul/23 11:20 AM,03/Jul/23 5:18 AM,,,0,"* Create an Environment for AIF Pipeline Engine Team, for testing purposes for Pyrogai",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,,,,,,Working environment ,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fsc1:,,,,,,,,,,2.0,,,,,,,,,,,,,,Something else,2023-06-22 11:18:02.534,,22/Jun/23 7:18 AM;61029d08627b560068c8a078;[🎓🥟 Knowledge Sharing Session on PyrogAI-20230613_070456-Meeting Recording.mp4 (sharepoint.com)|https://pgone-my.sharepoint.com/personal/olson_kd_pg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Folson%5Fkd%5Fpg%5Fcom%2FDocuments%2FRecordings%2F%F0%9F%8E%93%F0%9F%A5%9F%20Knowledge%20Sharing%20Session%20on%20PyrogAI%2D20230613%5F070456%2DMeeting%20Recording%2Emp4&referrer=Teams%2ETEAMS%2DELECTRON&referrerScenario=bim&ga=1],23/Jun/23 5:40 AM;6405ed610e0ddcdce18e3980;Meeting with Tomek Zdunek at 12:30,In Progress,Szymon Osiecki,61029d08627b560068c8a078,APE-350,APE-428,FY2324_P1 | 📦 Organizational Stuff,AMJ.23.6,FY2324_P1,"26/Jun/23 6:25 AM;61029d08627b560068c8a078;Minutes of meeting:
+
+CICD code (GH) for integration testing. From a single repo, on PR to main, on creating release to pyrogai.
+Also the same should be run from python pod. PyrogIA + PythonPod repositories:
+
+* [procter-gamble/de-cf-python-pod: Create a P&G DS/AIE Project in seconds using this Cookiecutter template (github.com)|https://github.com/procter-gamble/de-cf-python-pod]
+* [procter-gamble/de-cf-pyrogai: Pyrogai (github.com)|https://github.com/procter-gamble/de-cf-pyrogai]
+
+It would be easier to take the SP roles assignment from AIP to TF blueprint to automate it - align with Paweł Konik.
+
+We'll be triggering pipelines on both repositories, by creating branch from the latest release, making PR.
+We need write permissions on both repositories.
+
+We may create a CICD in the wrapper module to test the changes on new release.
+
+We can create dedicated workspace for release and simply make PR to pyrogai/pythopod repos with updated information about the new workspace.",135977.0,FY2324_P1 | 📦 Organizational Stuff,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create SP with token for adbmlwpyrogaidevel DBR workspace,APE-397,134758,Story,Done,APE,AIF Pipeline Engine,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Natalia Kraszewska,62c2c0cfa7de1e7c7c2cf038,Natalia Kraszewska,62c2c0cfa7de1e7c7c2cf038,21/Jun/23 3:49 AM,29/Jun/23 8:31 AM,29/Jun/23 8:39 AM,23/Jun/23 5:39 AM,,0,"SP created for the mlopsdbrdev workspace works well. The only missing thing is write/read access to the Workspace/Repos. I added it manually. 
+
+!image-20230621-075206.png|width=1773,height=925!
+
+Please create SP with the same settings/privileges + Workspace/Repos access for the adbmlwpyrogaidevel workspace. ",,Natalia Kraszewska,62c2c0cfa7de1e7c7c2cf038,,,,,,,,,21/Jun/23 3:52 AM;ug:0859644b-61dc-412f-81cf-a8b7181085ab;image-20230621-075206.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23731,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fpyz:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-29 12:31:20.568,,"29/Jun/23 8:31 AM;6405ed610e0ddcdce18e3980;AIP - creates SP in Azure
+
+AIP - triggers terraform (TF) deployment
+
+TF - onboards SP in Databricks
+
+TF - assigns permissions to SP including the CAN_USE tokens.
+
+AIP - logs into Databricks using generated SP credential and creates PAT
+
+AIP - saves the token in AML KV and in GitHub repo
+
+AIP - periodically rotates the PAT in KV and GitHub",,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,,,,,,Natalia Kraszewska,62c2c0cfa7de1e7c7c2cf038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Update on MS issue,APE-391,134478,Story,Done,APE,AIF Pipeline Engine,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Natalia Klimpel,62557e9c410206006e966da3,Natalia Klimpel,62557e9c410206006e966da3,19/Jun/23 4:10 AM,27/Jun/23 5:56 AM,20/Jun/23 3:57 AM,27/Jun/23 5:56 AM,,0,,,Natalia Klimpel,62557e9c410206006e966da3,,,,,,,,,20/Jun/23 3:57 AM;6405ed610e0ddcdce18e3980;image-20230620-075702.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23659,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fjhe:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-20 07:57:13.506,,"20/Jun/23 3:57 AM;6405ed610e0ddcdce18e3980;!image-20230620-075702.png|width=790,height=303!","20/Jun/23 3:58 AM;6405ed610e0ddcdce18e3980;!image-20230620-075738.png|width=789,height=623!
+
+!image-20230620-075758.png|width=964,height=579!
+
+!image-20230620-075812.png|width=816,height=366!",Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,AMJ.23.6,,"20/Jun/23 3:58 AM;6405ed610e0ddcdce18e3980;!image-20230620-075834.png|width=1140,height=163!",,,,20/Jun/23 3:58 AM;6405ed610e0ddcdce18e3980;image-20230620-075738.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23661,20/Jun/23 3:58 AM;6405ed610e0ddcdce18e3980;image-20230620-075758.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23662,20/Jun/23 3:58 AM;6405ed610e0ddcdce18e3980;image-20230620-075812.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23660,20/Jun/23 3:58 AM;6405ed610e0ddcdce18e3980;image-20230620-075834.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23663,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+[Service Principle] Recreate secret on AIP names,APE-390,134477,Story,Done,APE,AIF Pipeline Engine,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Natalia Klimpel,62557e9c410206006e966da3,Natalia Klimpel,62557e9c410206006e966da3,19/Jun/23 4:10 AM,21/Jun/23 7:44 AM,21/Jun/23 6:13 AM,21/Jun/23 7:44 AM,,0,,,Natalia Klimpel,62557e9c410206006e966da3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fjhd:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-19 09:48:31.2,,19/Jun/23 5:48 AM;6405ed610e0ddcdce18e3980;Waiting for Azure support - Marcella to be back ,,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,AMJ.23.6,,,,,,,,,,Tomasz Zdunek,5e5cf0103011ed0c8f8c63c0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create a python script for triggering a test pipeline using SDKv2,APE-350,131395,Story,Done,APE,AIF Pipeline Engine,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,31/May/23 6:12 AM,15/Jun/23 5:50 AM,05/Jul/23 8:18 AM,15/Jun/23 5:50 AM,,0,"Create simple test pipeline using SDKv2 that is:
+
+* using managed identity authentication
+* decodes and prints JWT token information
+* prints environment variables on the compute
+
+Scripts that can be used for that:
+
+[azure-mlops-dev/pipeline_v2.py at develop · procter-gamble/azure-mlops-dev · GitHub|https://github.com/procter-gamble/azure-mlops-dev/blob/develop/src/pipeline_v2.py]
+
+[azure-mlops-dev/default_az_cred_check.py at develop · procter-gamble/azure-mlops-dev · GitHub|https://github.com/procter-gamble/azure-mlops-dev/blob/develop/src/default_az_cred_check.py]",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,Script for triggering pipeline is created. We can confirm easily the cause of authentication issues.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0f6v7:,,,,,,,,,,0.5,,,,,,,,,,,,,,Something else,,,,,Done,,,APE-168,APE-211,PI.AMJ.23 | 🧺 Organizational Stuff,,,,122476.0,PI.AMJ.23 | 🧺 Organizational Stuff,APE-353,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switch to latest utils/private-endpoint module,DPOA-1898,133360,Story,Review,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,12/Jun/23 10:41 AM,04/Jul/23 8:55 AM,29/Jun/23 5:43 AM,,,0,Update private-endpoint creation with {{terraform-azure-utils.git/private-endpoint?ref=v3.1.3}} to *3.2.4*,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,29/Jun/23 4:53 AM;singh.js.5;image-20230629-085306.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23946,,,,,Latest version for {{terraform-azure-utils.git/private-endpoint}} to 3.2.4 release,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i06ozj:or,,,,,,,,,,0.2,,,,,,,,,,,,,,,,,13/Jun/23 5:17 AM;5dde91bb7eb2280d03c98dd0;Feature branch [*dpoa-1900*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1900] created to test changes.,"29/Jun/23 3:39 AM;5dde91bb7eb2280d03c98dd0;Switching +private-endpoint module reference version+ from *v3.1.x* to *v3.2.x*, creates PGI private endpoints in separate, dedicated PGI-RG (AZ-RG-PrivateEndpoints-PGI-01) other than AML-workspace-RG in respective subscription.
+
+As of now, there's *no such PGI-RGs available* for subscriptions - *PG-NA-External-NonProd-08* and *PG-NA-External-Prod-08*.
+
+Hence, the testing failed with error:
+
+{color:#ff5630}│ Error: checking for presence of existing Private Endpoint ""mlwdev28june1-pvtedpt-amlworkspace-pgi"" (Resource Group ""AZ-RG-PrivateEndpoints-PGI-01""): network.PrivateEndpointsClient#Get: Failure responding to request: StatusCode=403 -- Original Error: autorest/azure: Service returned an error. Status=403 Code=""AuthorizationFailed"" {color}
+
+{color:#ff5630}Message=""The client '0d22116a-03bb-4ed1-b82b-7565b47534d7' with object id '0d22116a-03bb-4ed1-b82b-7565b47534d7' does not have authorization to perform action 'Microsoft.Network/privateEndpoints/read' over scope '/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-PrivateEndpoints-PGI-01/providers/Microsoft.Network/privateEndpoints/mlwdev28june1-pvtedpt-amlworkspace-pgi' or the scope is invalid. If access was recently granted, please refresh your credentials.""{color}",In Progress,,,,DPOA-1689,GCP and Azure Enhancements JAS23,AMJ.23.6,FY2324_P1.1,"29/Jun/23 3:43 AM;5dde91bb7eb2280d03c98dd0;Currently, [awaiting detailed information from Cloud-COE |https://teams.microsoft.com/l/message/19:a727929a35704bbd9681d0df7cb685e4@thread.tacv2/1688028735443?tenantId=3596192b-fdf5-4e2c-a6fa-acb706c963d8&groupId=7ea8c0a8-4e9d-448f-8443-770116ceec39&parentMessageId=1688028735443&teamName=CLOUD%20CoP&channelName=Infrastructure%20as%20Code&createdTime=1688028735443&allowXTenantAccess=false]team to understand:
+
+# Availability of *AZ-RG-PrivateEndpoints-PGI-01* resource groups in +PG-NA-External-NonProd-08+ and +PG-NA-External-Prod-08+ subscriptions.
+# Permission to Jenkins SP to access such resource groups.",115718.0,GCP and Azure Enhancements JAS23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,"29/Jun/23 4:53 AM;5dde91bb7eb2280d03c98dd0;!image-20230629-085306.png|width=1031,height=217!",04/Jul/23 5:40 AM;5dde91bb7eb2280d03c98dd0;[*PR-81*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/pull/81] submitted.,04/Jul/23 6:03 AM;5dde91bb7eb2280d03c98dd0;Implement changes required to upgrade from v3.2.2 to *v3.2.4*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Update Invoke-workspace-provisioning script,DPOA-1897,133353,Story,In Progress,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,12/Jun/23 10:36 AM,03/Jul/23 3:48 PM,15/Jun/23 4:09 AM,,,0,"Replace inference_enabled with attach_kubernetes
+
+Add databricks setup
+
+Remove PLS ",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,,,,,,Updated with all currently-added features.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i06ozj:pi,,,,,,,,,,0.2,,,,,,,,,,,,,,,,,,,In Progress,,,,DPOA-1689,GCP and Azure Enhancements JAS23,AMJ.23.6,FY2324_P1.1,,115718.0,GCP and Azure Enhancements JAS23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Work on TSS Remediation PI.JAS.23 ,DPOA-1740,123086,Story,In Progress,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Pawel Borowiak,6405ed610e0ddcdce18e3980,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,05/Apr/23 9:23 AM,04/Jul/23 9:22 AM,05/Jul/23 8:18 AM,,,0,"Issues available at: [Issues | Wiz Portal|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))))]
+
+*Low* severity issues
+
+* 3x [Users with highly-privileged access to Azure Container Registry|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))~control~(equals~(~'wc-id-430)))~groupBy~'none)]
+* 3x [TSS AKV-3-2|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))~control~(equals~(~'12dfa460-47dd-4c8a-a8fb-0b5cd5482a31)))~groupBy~'none)]
+* 2x [TSS CSS-15-3-2|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))~control~(equals~(~'2ec4176e-9aac-42dc-945b-41ce57442310)))~groupBy~'none)]
+* 2x [TSS AKV-3-6|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))~control~(equals~(~'0e5ff0ad-b8c3-4f43-a417-354067a1f226)))~groupBy~'none)]",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,Identified issue root cause.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fv22:,,,,,,,,,,0.4,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,DPOA-1847,Address tech debt gained in year 1,FY2324_P1.1,,,131668.0,Address tech debt gained in year 1,,,,,,Andrew Bloomberg,5b756e39d521620528394596,DPOA-1730,DPOA-1664,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Review all entries in kv for workspace,DPOA-1966,135972,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,03/Jul/23 10:47 AM,03/Jul/23 10:48 AM,05/Jul/23 8:18 AM,,,0,"After all the changes to code for EDA and pyrogai, lets verify that all the right things are stored in the workspace keyvaults",,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fwoj:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,DPOA-1433,Connection to EDA for secure deployments,FY2324_P1.1,,,85388.0,Connection to EDA for secure deployments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Analysis of DDAPI connectivity setup,DPOA-1957,135673,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,29/Jun/23 10:16 AM,03/Jul/23 11:09 AM,05/Jul/23 8:18 AM,,,0,Discuss with Robert about the scope of the use-case to create service endpoint connectivity from specific VNets to Storage Accounts.,,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0frzu:zzzr,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,,,To Do,,,,DPOA-1689,GCP and Azure Enhancements JAS23,FY2324_P1.2,,,115718.0,GCP and Azure Enhancements JAS23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create ACR pull token and save password to KeyVault in AML Blueprint,DPOA-1950,135325,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,Done,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,26/Jun/23 1:19 PM,30/Jun/23 9:15 AM,05/Jul/23 8:18 AM,30/Jun/23 9:15 AM,,0,"Automate saving of ACR pull token password to the KeyVault:
+
+# Create container registry token with {{_repositories_pull}} scope:
+[azurerm_container_registry_token | Resources | hashicorp/azurerm | Terraform Registry|https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/container_registry_token]",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i0fsbr:,,,,,,,,,,0.2,,,,,,,,,,,,,,,2023-06-27 10:14:21.198,,27/Jun/23 6:14 AM;5dde91bb7eb2280d03c98dd0;Feature branch [*dpoa-1898*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1898] created to implement changes in this sprint.,27/Jun/23 8:26 AM;5dde91bb7eb2280d03c98dd0;[*PR-80*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/pull/80] submitted for review and merge.,Done,Szymon Osiecki,61029d08627b560068c8a078,,DPOA-1655,Azure Enhancements AMJ23,AMJ.23.6,,,113962.0,Azure Enhancements AMJ23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Implement role assignments for the Service Principal in AML blueprint,DPOA-1948,135182,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,Done,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,26/Jun/23 2:52 AM,30/Jun/23 9:14 AM,05/Jul/23 8:18 AM,30/Jun/23 9:14 AM,,0,"Assign {{PG ResourceGroup Admin}} on the resource group level to the SP provided by AIP application.
+
+We can get the {{ObjectId}} required for the assignment using:
+[azuread_service_principal | Data Sources | hashicorp/azuread | Terraform Registry|https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/data-sources/service_principal]",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,,,,,Enabler,Role assignment for the SP implemented for the v4.8.1 release,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i0fsbn:,,,,,,,,,,0.2,,,,,,,,,,,,,,,2023-06-27 10:14:11.907,,"26/Jun/23 10:00 AM;61029d08627b560068c8a078;* ask Paweł Konik to put sp_client id in the: {{ds_launchpad/templates/terraform/rg-terraform.tfvars}} file,
+* use the data source, by provideing above client_id as an application_id in the data source,
+* add another role assignment in the {{azure/rg/security.tf}} file.
+* Create new release deployment.",27/Jun/23 6:14 AM;5dde91bb7eb2280d03c98dd0;Feature branch [*dpoa-1898*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1898] created to implement changes in this sprint.,Done,Szymon Osiecki,61029d08627b560068c8a078,,DPOA-1655,Azure Enhancements AMJ23,AMJ.23.6,,"27/Jun/23 8:27 AM;5dde91bb7eb2280d03c98dd0;[*PR-80*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/pull/80] submitted for review and merge.
+
+
+This PR comprises multiple features at once:
+
+* Upgrade azurerm provider from v3.30.0 to *v3.62.0* .
+* Setting *node_public_ip_enabled* parameter in *azurerm_machine_learning_compute_cluster* along with explicit dependency on AML private-endpoints.
+* Updated *databricks_setup.ps1* script to assign ""CAN_MANAGE"" repo permission to Service Principal.
+* Create ACR token for repo pull permission
+* Assign workspace SP PG ResourceGroup Admin role under /rg/security folder(at wrapper module)",113962.0,Azure Enhancements AMJ23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Support JAS.23.4,DPOA-1946,135130,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,23/Jun/23 10:51 AM,23/Jun/23 10:51 AM,05/Jul/23 8:18 AM,,,0,CSE Team support,,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fs1v:,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,,,To Do,,,DPOA-1928,DPOA-1856,Support JAS23,FY2324_P1.4,,,131907.0,Support JAS23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Support JAS.23.3,DPOA-1941,135125,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,23/Jun/23 10:49 AM,23/Jun/23 10:50 AM,05/Jul/23 8:18 AM,,,0,CSE Team support,,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fs0r:,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,,,To Do,,,DPOA-1928,DPOA-1856,Support JAS23,FY2324_P1.3,,,131907.0,Support JAS23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Support JAS.23.2,DPOA-1936,135120,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,23/Jun/23 10:48 AM,23/Jun/23 10:48 AM,05/Jul/23 8:18 AM,,,0,CSE Team support,,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0frzn:,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,,,To Do,,,DPOA-1928,DPOA-1856,Support JAS23,FY2324_P1.2,,,131907.0,Support JAS23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Permanently delete AML workspace that is soft-deleted,DPOA-1929,134975,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,22/Jun/23 10:51 AM,04/Jul/23 7:44 AM,05/Jul/23 8:18 AM,,,0,"The +default deletion behavior+ when deleting an AML workspace is soft-delete.
+
+On deletion of AML workspace, in order to reuse the resource name, we need to enable permanent-delete option.",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,03/Jul/23 11:22 AM;singh.js.5;image-20230703-152147.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/24000,,,,,"On deletion of  AML workspace, it gets deleted permanently",,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fr6j:,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,2023-07-03 15:22:21.044,,22/Jun/23 10:52 AM;5fff11ae849d6401119514b6;[~accountid:5dde91bb7eb2280d03c98dd0]  is going to add description,"03/Jul/23 11:22 AM;5dde91bb7eb2280d03c98dd0;Currently, softDeleteEnabled = false in AML workspace in both subscriptions:
+
+!image-20230703-152147.png|width=1511,height=460!",To Do,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,DPOA-1689,GCP and Azure Enhancements JAS23,FY2324_P1.1,,"04/Jul/23 3:01 AM;5dde91bb7eb2280d03c98dd0;Checking if the +default deletion behavior+ when deleting AML workspace is soft-delete.
+If yes, then override above soft-delete behavior by enabling permanent deletion of AML workspace.",115718.0,GCP and Azure Enhancements JAS23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,,"04/Jul/23 6:02 AM;5dde91bb7eb2280d03c98dd0;Validated that the workspace (where softDeleteEnabled = false), on deletion, doesn’t get deleted permanently and is visible under +*Azure Machine Learning Service > Recently Deleted*+ option.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Support JAS.23.1,DPOA-1928,134970,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,22/Jun/23 10:28 AM,23/Jun/23 10:52 AM,05/Jul/23 8:18 AM,,,0,CSE Team support,,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fr5v:,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,,,To Do,,,,DPOA-1856,Support JAS23,FY2324_P1.1,,,131907.0,Support JAS23,DPOA-1936,,,,,,,,,,,,,,,DPOA-1941,DPOA-1946,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Change naming convention for user managed identity,DPOA-1894,133295,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,Done,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,12/Jun/23 9:03 AM,13/Jun/23 9:32 AM,13/Jun/23 5:34 AM,13/Jun/23 9:32 AM,,0,Simplify the name of user managed identity to the {{<workspace_name>-uami}}.,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i0eif6:zzr,,,,,,,,,,0.2,,,,,,,,,,,,,,,2023-06-13 08:39:12.375,,"13/Jun/23 4:39 AM;5dde91bb7eb2280d03c98dd0;[*dpoa-1894*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1894][ |https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1894]created, requested change implemented and [*PR-79*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/pull/79] submitted",13/Jun/23 4:40 AM;5dde91bb7eb2280d03c98dd0;Szymon merged [*PR-79*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/pull/79] into master branch. Task is complete.,Done,Szymon Osiecki,61029d08627b560068c8a078,,DPOA-1655,Azure Enhancements AMJ23,AMJ.23.6,,,113962.0,Azure Enhancements AMJ23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Support,DPOA-1891,133127,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,Done,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Andrew Bloomberg,5b756e39d521620528394596,Andrew Bloomberg,5b756e39d521620528394596,09/Jun/23 10:04 AM,30/Jun/23 9:14 AM,05/Jul/23 8:18 AM,30/Jun/23 9:14 AM,,0,CSE Rapid Response support,,Andrew Bloomberg,5b756e39d521620528394596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0eif6:zzri,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,,,Done,,,,DPOA-1640,Support AMJ23,AMJ.23.6,,,113529.0,Support AMJ23,,,,,,Andrew Bloomberg,5b756e39d521620528394596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Update compute cluster properties in the AML blueprint,DPOA-1867,132104,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,Done,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,06/Jun/23 3:38 PM,30/Jun/23 9:14 AM,05/Jul/23 8:18 AM,30/Jun/23 9:14 AM,,0,"Determine compute cluster properties for default deployments:
+
+* use dedicated compute cluster instead of the low priority VM.
+* change compute cluster tier.
+* keep public IP turned on.",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,13/Jun/23 5:42 AM;singh.js.5;image-20230613-094137.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23515,,,,,Default properties for the compute cluster determined and changed in the AML blueprint.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i0eif6:zzs,,,,,,,,,,0.6,,,,,,,,,,,,,,,2023-06-13 09:17:38.008,,13/Jun/23 5:17 AM;5dde91bb7eb2280d03c98dd0;Feature branch [*dpoa-1898*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1898] created to implement changes in this sprint.,"13/Jun/23 5:42 AM;5dde91bb7eb2280d03c98dd0;+*Estimated cost comparison:*+
+
+LowPriority -- *$0.02*/hr per node
+
+!image-20230613-094220.png|width=425,height=321!
+
+Dedicated --   *$0.10*/hr per node
+
+!image-20230613-094137.png|width=384,height=320!",Done,Szymon Osiecki,61029d08627b560068c8a078,,DPOA-1655,Azure Enhancements AMJ23,AMJ.23.6,,"13/Jun/23 5:50 AM;5dde91bb7eb2280d03c98dd0;Setting {{subnet_resource_id}} parameter of {{azurerm_machine_learning_compute_cluster}} is disabling {{node_public_ip_enabled}} parameter, hence, making it invalid to use.
+
+!image-20230613-095023.png|width=928,height=189!",113962.0,Azure Enhancements AMJ23,,13/Jun/23 5:42 AM;singh.js.5;image-20230613-094220.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23516,13/Jun/23 5:50 AM;singh.js.5;image-20230613-095023.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23517,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,14/Jun/23 8:23 AM;5dde91bb7eb2280d03c98dd0;Checking with Alan Garcia to understand the performance impact / requirement needed for default compute-cluster VM machine tier,"20/Jun/23 3:23 AM;5dde91bb7eb2280d03c98dd0;Microsoft case [+*2306140050003160*+|https://portal.azure.com/#view/Microsoft_Azure_Support/SupportRequestDetails.ReactView/id/%2Fsubscriptions%2F27c0a03b-f477-4c6d-b9a9-608e91d2e83b%2Fproviders%2Fmicrosoft.support%2Fsupporttickets%2F2306140050003160/portalJourney~/true] is created to resolve why +*No Public IP*+ parameter is NOT set to false during creation of compute-cluster resource.
+This will also resolve the problem of pipeline failure with the ManagedIdentity Authentication on *default* compute-cluster","20/Jun/23 3:24 AM;5dde91bb7eb2280d03c98dd0;Microsoft confirmed that - Defining the *_subnet_resource_id_* is not enough to create the +compute-cluster without the Public IP+. 
+
+Awaiting feedback from Microsoft engineering team about the Terraform errors.",,,,,,,,,,,,,,,"21/Jun/23 8:16 AM;5dde91bb7eb2280d03c98dd0;Switched creation of AML compute cluster resource from *azurerm* provider to *azapi* provider - which allowed:
+
+* Setting *No Public IP* = true
+* Setting *IsolatedNetwork* = false
+* Setting *VM machine tier* = LowPriority or Dedicated without deleting existing compute.","21/Jun/23 8:29 AM;5dde91bb7eb2280d03c98dd0;Execute pipeline using the *ManagedIdentity* credentials. – PENDING
+
+Successfully executed SDK v2 pipelines with individual user credentials.",22/Jun/23 3:43 AM;5dde91bb7eb2280d03c98dd0;Successfully tested pipeline execution with *azurerm v3.61.0* along with azurerm provider of compute-cluster,22/Jun/23 8:58 AM;5dde91bb7eb2280d03c98dd0;Successfully tested all scenarios with *azurerm v3.61.0* ,27/Jun/23 6:13 AM;5dde91bb7eb2280d03c98dd0;Testing *azurerm* *v3.62.0*,27/Jun/23 8:28 AM;5dde91bb7eb2280d03c98dd0;Successfully tested with azure rm v3.62.0 (latest stable release),"27/Jun/23 8:28 AM;5dde91bb7eb2280d03c98dd0;[*PR-80*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/pull/80] submitted for review and merge.
+
+
+This PR comprises multiple features at once:
+
+* Upgrade azurerm provider from v3.30.0 to *v3.62.0* .
+* Setting *node_public_ip_enabled* parameter in *azurerm_machine_learning_compute_cluster* along with explicit dependency on AML private-endpoints.
+* Updated *databricks_setup.ps1* script to assign ""CAN_MANAGE"" repo permission to Service Principal.
+* Create ACR token for repo pull permission
+* Assign workspace SP PG ResourceGroup Admin role under /rg/security folder(at wrapper module)",,,,,,,,,,,
+Automate Databricks secret scope creation during workspace provisioning,DPOA-1842,130715,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,Done,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,29/May/23 10:24 AM,12/Jun/23 10:40 AM,12/Jun/23 5:42 AM,12/Jun/23 10:03 AM,,0,"Automate Databricks secret scope creation using the Python script:
+
+[https://github.com/procter-gamble/azure-mlops-dev/blob/develop/src/dbr_secret_scope_create.py|https://github.com/procter-gamble/azure-mlops-dev/blob/develop/src/dbr_secret_scope_create.py]
+
+similar like it has been implemented for inference attachment:
+
+* [https://github.com/procter-gamble/terraform-azure-machine-learning-service/blob/feat_550_terraform/main.tf#L377-L394|https://github.com/procter-gamble/terraform-azure-machine-learning-service/blob/feat_550_terraform/main.tf#L377-L394]
+* [https://github.com/procter-gamble/terraform-azure-machine-learning-service/blob/feat_550_terraform/scripts/inference_attach.py|https://github.com/procter-gamble/terraform-azure-machine-learning-service/blob/feat_550_terraform/scripts/inference_attach.py]
+
+Change [requirements.txt|https://github.com/procter-gamble/terraform-azure-machine-learning-service/blob/master/requirements.txt] to:
+
+{noformat}azure-identity==1.13.0
+databricks-cli==0.17.7{noformat}
+
+Align secret scope creation with Databricks provisioning.
+
+Change pipelines definition, to install requirements only when Databricks provisioning is specified:
+
+* [https://github.com/procter-gamble/terraform-jenkins-shared-library/blob/main/terraform-azure-pipelines/terraform-infra-repo-apply-rg-no-approval.groovy#L155-L160|https://github.com/procter-gamble/terraform-jenkins-shared-library/blob/main/terraform-azure-pipelines/terraform-infra-repo-apply-rg-no-approval.groovy#L155-L160]
+* [https://github.com/procter-gamble/terraform-jenkins-shared-library/blob/main/terraform-azure-pipelines/terraform-infra-repo-apply-rg.groovy#L153-L158|https://github.com/procter-gamble/terraform-jenkins-shared-library/blob/main/terraform-azure-pipelines/terraform-infra-repo-apply-rg.groovy#L153-L158]",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,02/Jun/23 11:32 AM;singh.js.5;MicrosoftTeams-image (1).png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23239,,,,,Release feature into AML blueprint and DSL wrapper module as optional / default feature.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i0f0hj:,,,,,,,,,,1.0,,,,,,,,,,,,,,,2023-06-02 11:02:16.82,,02/Jun/23 7:02 AM;5dde91bb7eb2280d03c98dd0;Feature branch [*dpoa-1842*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1842] is created.,"02/Jun/23 11:32 AM;5dde91bb7eb2280d03c98dd0;Observations from test in terminal and through Jenkins pipeline:
+
+* +*Terminal*+
+
+Secret Scope was created successfully ONLY after I *launched Databricks workspace* - that added me as admin user in workspace.
+
+!MicrosoftTeams-image.png|width=1301,height=230!
+
+
+
+* +*Jenkins*+[ rerun pipeline|https://jaas.pg.com/ccoe-iac/job/terraform-azure-infra-CI003427367-dslaunchpad/job/dslaunchpad-rerun/1126/console]
+
+In pipeline, +*Jenkins SP*+ is creating secret scope - that means SP +*must be added as admin/user*+ in Databricks workspace - before running secret scope creation script. Currently, it will fail with ERROR:
+
+!MicrosoftTeams-image (1).png|width=1367,height=205!",Done,Szymon Osiecki,61029d08627b560068c8a078,,DPOA-1655,Azure Enhancements AMJ23,AMJ.23.5,,05/Jun/23 5:37 AM;5dde91bb7eb2280d03c98dd0;Successfully tested +secret scope creation+ via AML blueprint module.,113962.0,Azure Enhancements AMJ23,,02/Jun/23 11:32 AM;singh.js.5;MicrosoftTeams-image.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23240,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,05/Jun/23 6:35 AM;5dde91bb7eb2280d03c98dd0;*_Cloud-COE_* team is currently developing [*terraform-azure-service-principal*|https://github.com/procter-gamble/terraform-azure-service-principal] module - to automate creation of SPs. (*ETA -19 June*),05/Jun/23 6:38 AM;5dde91bb7eb2280d03c98dd0;Preparing script to *Add new databricks Service Principal in its workspace*.,"06/Jun/23 11:43 AM;5dde91bb7eb2280d03c98dd0;Script is ready for testing and validation.
+
+* Create Databricks secret scope
+* Add Service Principal (created through AIP) under user group in Databricks workspace
+* Assign CAN_USE permission to above Service Principal",,,,,,,AFMD-524,APE-168,,,,,,,"09/Jun/23 5:59 AM;5dde91bb7eb2280d03c98dd0;Deployment testing is successful. 
+
+Refer - [https://jaas.pg.com/ccoe-iac/job/terraform-azure-infra-CI003427367-dslaunchpad/job/dslaunchpad-sandbox-develop/598/consoleFull|https://jaas.pg.com/ccoe-iac/job/terraform-azure-infra-CI003427367-dslaunchpad/job/dslaunchpad-sandbox-develop/598/consoleFull]",12/Jun/23 4:26 AM;5dde91bb7eb2280d03c98dd0;[*PR-78*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/pull/78] submitted for Szymon’s review and merge.,,,,,,,,,,,,,,,,
+Work on TSS Remediation for medium risk issue - CSS-6-2-3,DPOA-1840,130695,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,29/May/23 9:09 AM,20/Jun/23 10:56 AM,27/Jun/23 6:22 AM,20/Jun/23 10:56 AM,,0,"Issues available at: [Issues | Wiz Portal|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))))]
+
+*Medium* severity issues:
+
+* *CSS-6-2-3*
+
+!image-20230529-130446.png|width=1298,height=884!
+
+!image-20230529-130504.png|width=1267,height=890!
+
+3 months to proceed with the issue.",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,29/May/23 9:09 AM;6405ed610e0ddcdce18e3980;image-20230529-130446.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23092,,,,,Identified issue root cause.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fi1d:,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,29/May/23 9:14 AM;6405ed610e0ddcdce18e3980;Issue to be confirm with Christopher Heitkamp and Marcin Krawczyk on Tuesday 29 of May,13/Jun/23 6:54 AM;6405ed610e0ddcdce18e3980;Ticket to CloudOps created. [Request - Cloud Operations Portal v2 (service-now.com)|https://pgglobalenterprise.service-now.com/cloud_new?id=sc_request&is_new_order=true&table=sc_request&sys_id=8d01a9971b1be51097c5c9522a4bcb31],Done,,,DPOA-1839,DPOA-1643,Overall Architecture/Tech Debt AMJ23,AMJ.23.6,,"16/Jun/23 8:50 AM;6405ed610e0ddcdce18e3980;there is a discussion within cloudops, centrify team and security team about this issue as per centrify sshd_config config PasswordAuthentication should not be change to No as it will break the agent. Accessing Vm used the paswordauthentication by centrify and AD.",113532.0,Overall Architecture/Tech Debt AMJ23,DPOA-1911,29/May/23 9:09 AM;6405ed610e0ddcdce18e3980;image-20230529-130504.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23093,,,,Szymon Osiecki,61029d08627b560068c8a078,,,,20/Jun/23 10:04 AM;6405ed610e0ddcdce18e3980;Done,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Work on TSS Remediation for medium risk issue - Unsanctioned technology running on a VM Instance,DPOA-1838,130692,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,29/May/23 9:02 AM,20/Jun/23 10:56 AM,20/Jun/23 10:56 AM,20/Jun/23 10:56 AM,,0,"Issues available at: [Issues | Wiz Portal|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))))]
+
+*Medium* severity issues
+
+* *Unsanctioned technology running on a VM Instance*
+
+!image-20230529-130346.png|width=1788,height=837!
+
+!image-20230529-130415.png|width=1416,height=736!
+
+3 months to proceed with the issue.",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,29/May/23 9:06 AM;6405ed610e0ddcdce18e3980;image-20230529-130346.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23089,,,,,Identified issue root cause.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0fi1b:,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,,,29/May/23 9:15 AM;6405ed610e0ddcdce18e3980;Issue to be confirm with Christopher Heitkamp and Marcin Krawczyk on Tuesday 29 of May,13/Jun/23 6:55 AM;6405ed610e0ddcdce18e3980;Christopher: I'm still waiting to hear back about the Nessus issue. Thanks! ,Done,,,DPOA-1730,DPOA-1643,Overall Architecture/Tech Debt AMJ23,AMJ.23.6,,20/Jun/23 10:06 AM;6405ed610e0ddcdce18e3980;Done,113532.0,Overall Architecture/Tech Debt AMJ23,DPOA-1839,29/May/23 9:06 AM;6405ed610e0ddcdce18e3980;image-20230529-130415.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23088,,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Enable DDAPI connectivity to AML blueprint,DPOA-1835,130276,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Low,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,24/May/23 3:02 AM,09/Jun/23 8:48 AM,05/Jul/23 8:18 AM,,,0,"Establish network connectivity to Storage Account via Service Endpoints (VNET whitelisting) from *DDAPI application*’s VNet-Subnets listed below:
+
+[https://jira-pg-ds.atlassian.net/wiki/spaces/CDLBOK/pages/3778904132/Whitelist+the+VNET+SUBNET+of+Data+Delivery+file+mover+in+the+destination+storage+account+of+subscribers|https://jira-pg-ds.atlassian.net/wiki/spaces/CDLBOK/pages/3778904132/Whitelist+the+VNET+SUBNET+of+Data+Delivery+file+mover+in+the+destination+storage+account+of+subscribers|smart-link] ",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,,,,,,Release feature into AML blueprint and DSL wrapper module as optional / default feature.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i06ozj:v,,,,,,,,,,0.6,,,,,,,,,,,,,,,2023-05-24 07:16:42.568,,"24/May/23 3:16 AM;61029d08627b560068c8a078;h2. *List of file mover vnets and subnets and Resource Groups*
+
+All vnets and subnets are under PG-NA-External-Prod-04 subscription
+
+*MDM*    
+
+* *vnet-sa-func-filemover-md-prem-p101* with subnet *_default_*
+* RG: AZ-RG-CoreDataPlatform-MasterData04-01
+
+*POS*
+
+* *_vnet-sa-func-filemover-pos-prem-p101_* with subnet *_default_*
+* RG: AZ-RG-CoreDataPlatform-PointOfSale04-01
+
+*_RE(SF)_*
+
+* *_vnet-sa-func-filemover-salesfund-prem-p101_* with subnet *_default_*
+* RG: AZ-RG-CoreDataPlatform-SalesFundamentals-01
+
+*_Product Supply_* +*_and all other data types_*+ *_(DataDeliveryGP)_*
+
+* *_vnet-sa-func-filemover-genpurp-prem-p101_* with subnet *_default_*
+* RG: AZ-RG-CoreDataPlatform-DataDeliveryGP-01
+
+*_IndirectShipment_*
+
+* *_vnet-sa-func-filemover-indirship-prem-p101_* with subnet *_default_*
+* RG: AZ-RG-CoreDataPlatform-IndirectShipment04-01
+
+ *_DirectShipment_*
+
+* *_vnet-sa-func-filemover-ship-prem-p101_* with subnet *_default_*
+* RG: AZ-RG-CoreDataPlatform-DirectShipment04-01
+
+ *_TradePanel_*
+
+* *_vnet-sa-func-filemover-tp-prem-p101_* with subnet *_default_*
+* RG: AZ-RG-CoreDataPlatform-TradePanel04-01",24/May/23 3:19 AM;61029d08627b560068c8a078;{color:#ff5630}NOTE{color}: By default All DDDAPI subscribers are asked to [Whitelist the VNET /SUBNET of Data Delivery file mover in the destination storage account of subscribers|https://jira-pg-ds.atlassian.net/wiki/pages/resumedraft.action?draftId=3778904132] but when at least one Private Endpoint is added to the Subscriber or publisher storage ( for any reason) it will disable current VNETs whitelisting in the storage account and cause all your subscriptions to fail.,To Do,Szymon Osiecki,61029d08627b560068c8a078,,DPOA-1689,GCP and Azure Enhancements JAS23,,,,115718.0,GCP and Azure Enhancements JAS23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Release as default feature: Attach AKS cluster as Kubernetes Compute,DPOA-1797,127350,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,High,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,28/Apr/23 9:03 AM,03/Jul/23 3:48 PM,13/Jun/23 5:35 AM,,,0,"Once the pipelines are successfully provisioning AML workspaces along with Kubernetes Compute attachment, create and merge new release in AML blueprint and DSL wrapper modules as an optional feature.",,Andrew Bloomberg,5b756e39d521620528394596,,,,,,,,,,,,,,Release is created and merged in AML blueprint and DSL wrapper modules as default feature.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i06ozj:r2,,,,,,,,,,0.1,,,,,,,,,,,,,,,2023-06-09 12:46:47.59,,09/Jun/23 8:46 AM;5b756e39d521620528394596;Requires work from hackathon to be done first.,13/Jun/23 5:18 AM;5dde91bb7eb2280d03c98dd0;Feature branch [*dpoa-1898*|https://github.com/procter-gamble/terraform-azure-machine-learning-service/tree/dpoa-1898] created to implement changes in this sprint.,To Do,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,DPOA-1689,GCP and Azure Enhancements JAS23,AMJ.23.3,AMJ.23.6,,115718.0,GCP and Azure Enhancements JAS23,,,,,,Szymon Osiecki,61029d08627b560068c8a078,,,Confluence,,,,,ITSMS-59,,,DPOA-1752,,,,,,,FY2324_P1.1,,,,,,,,,,,,,,,,,,,,
+Custom Storage Account Service Endpoints in AML Blueprint,DPOA-1779,126583,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,24/Apr/23 8:26 AM,29/Jun/23 10:18 AM,05/Jul/23 8:18 AM,,,0,"Implement ability to specify custom Service Endpoints on AML Storage Accounts.
+
+The feature will make the deployment more reliable, because reruns won't break existing connections.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,Additional Service Endpoints on AML Storage Accounts has been implemented in AML blueprint.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i06ozj:p,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,DPOA-1688,DPOA-1689,GCP and Azure Enhancements JAS23,,,,115718.0,GCP and Azure Enhancements JAS23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Automate Kubernetes attachment in AML for inference, training and IPA deployments",DPOA-1753,124747,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,High,Done,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,11/Apr/23 12:50 PM,03/Jul/23 10:14 AM,06/Jun/23 10:33 AM,03/Jul/23 10:14 AM,,0,"Set up AML app repository in the App of Apps repository of the kubernetes AKS cluster.
+
+There are 3 AoA repositories for shared kubernetes clusters:
+
+* [https://github.com/procter-gamble/aks-aif-mt-dev-cluster-aoa|https://github.com/procter-gamble/aks-aif-mt-dev-cluster-aoa] - dev repo for the internal AIF development purposes (ITS, and AIP dev application).
+* [https://github.com/procter-gamble/aks-aif-mt-nonprod-cluster-aoa|https://github.com/procter-gamble/aks-aif-mt-nonprod-cluster-aoa] - for workspaces deployments to NonProduction subscription.
+* [https://github.com/procter-gamble/aks-aif-mt-prod-cluster-aoa|https://github.com/procter-gamble/aks-aif-mt-prod-cluster-aoa] - for workspaces deployments to Production subscription.
+
+There should be created 3 files in the {{apps/<org-name>/<repository_name.lower()>}} location:
+
+organization prefixes:
+
+* pg - procter-gambe
+* dsdc - pg-ds-dev-class
+
+{color:#ff5630}!Suggested making a limit for repository name to 50 characters{color}
+
+# namespace.yaml
+
+{code:yaml}apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ organization-prefix }}-{{ repository_name.lower() }}
+  labels:
+    name: {{ organization-prefix }}-{{ repository_name.lower() }}
+    instance_id: ""{{ instance_id }}""{code}
+
+# {{gitrepository.yaml}}
+{code:yaml}apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: {{ organization-prefix }}-{{ repository_name.lower() }}
+  namespace: app-of-apps
+spec:
+  interval: 1m0s
+  ref:
+    branch: fluxcd-deployment-{{ prod/nonprod }}
+  secretRef:
+    name: ssh-{{ organization-prefix }}-{{ repository_name.lower() }}
+  url: ssh://git@github.com/procter-gamble/{{ repository_name }}{code}
+# {{secret.yaml}}
+{code:yaml}apiVersion: v1
+kind: Secret
+metadata:
+  name: ssh-{{ organization-prefix }}-{{ repository_name.lower() }}
+  namespace: app-of-apps
+type: Opaque
+data:
+  identity: {{ base64_encoded_ssh_ecdsa_eliptic_p521_private_key }}
+  identity.pub: {{ base64_encoded_ssh_ecdsa_eliptic_p521_public_key }}
+  known_hosts: {{ base64_encoded_github.com_fingerprint }}{code}
+
+Klucz publiczny (identity_pub, ale nie base64 encoded) należy dodać jako deploy key (tylko do odczytu) w powyżej zdefiniowanym repozytorium (GitRepository, line 12).
+
+# {{service-account.yaml}}
+{code:yaml}apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    azure.workload.identity/client-id: {{ user_assigned_identity_id_created_during_aml_provisioning }}
+  labels:
+    azure.workload.identity/use: ""true""
+  name: workload-sa
+  namespace: {{ organization-prefix }}-{{ repository_name.lower() }}{code}
+
+Create federated credential for the ServiceAccount (above). The Azure-CLI command:
+
+{noformat}az identity federated-credential create `
+    --name ""{{ organization-prefix }}-{{ repository_name.lower() }}"" `
+    --identity-name <aml_ws_name>-uami `
+    --resource-group <aml_resourceGroup> `
+    --subscription <aml_subscriptionId> `
+    --issuer <issuer_url> `  #from the map below
+    --subject system:serviceaccount:{{ organization-prefix }}-{{ repository_name.lower() }}:workload-sa{noformat}
+
+Issuer URLs (determined for the repository):
+
+* dev - [https://eastus2.oic.prod-aks.azure.com/3596192b-fdf5-4e2c-a6fa-acb706c963d8/d79f3d2b-d040-4e60-bc97-d590f92d4d3e/|https://eastus2.oic.prod-aks.azure.com/3596192b-fdf5-4e2c-a6fa-acb706c963d8/d79f3d2b-d040-4e60-bc97-d590f92d4d3e/]
+* nonprod - [https://eastus2.oic.prod-aks.azure.com/3596192b-fdf5-4e2c-a6fa-acb706c963d8/faf8b504-5248-4624-b601-ab2c0c796fb5/|https://eastus2.oic.prod-aks.azure.com/3596192b-fdf5-4e2c-a6fa-acb706c963d8/faf8b504-5248-4624-b601-ab2c0c796fb5/]
+* prod - [https://eastus2.oic.prod-aks.azure.com/3596192b-fdf5-4e2c-a6fa-acb706c963d8/92b26c89-74f2-452a-bf17-be3ecdbc0e80/|https://eastus2.oic.prod-aks.azure.com/3596192b-fdf5-4e2c-a6fa-acb706c963d8/92b26c89-74f2-452a-bf17-be3ecdbc0e80/]
+
+And {{kustomization_de-cf-<repository_name.lower()>.yaml}} file created in {{flux}} location
+
+{code:yaml}apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: {{ organization-prefix }}-{{ repository_name.lower() }}
+  namespace: app-of-apps
+spec:
+  interval: 1m0s
+  serviceAccountName: app-of-apps-sa
+  path: /
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: {{ organization-prefix }}-{{ repository_name.lower() }}
+  targetNamespace: {{ organization-prefix }}-{{ repository_name.lower() }}{code}
+
+
+
+Change the {{PG MachineLearning Admin}} role  assigned for the created ServicePrincipal on the AML ResourceGroup to {{PG ResourceGroup Admin}}.
+
+h2. terraform.tfvars changes
+
+Add 2 new variables to the {{ds_launchpad/templates/terraform/terraform.tfvars}} file:
+
+{noformat}attach_kubernetes_compute = true
+kubernetes_compute_env = ""prod""{noformat}
+
+the {{kubernetes_compute_env}} needs to be determined the same way as the OIDC/Repo and the values for it are:
+
+* {{prod}}
+* {{nonprod}}
+* {{dev}}
+
+h2. New secret in AML KV
+
+We need a random string (may be 64 characters long) to be generated and saved to AML Key-Vault secret after the workspace provisioning.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,Enabler,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,purple,,,,,,,,,,1|i0e5mf:i,,,,,,,,,,0.4,,,,,,,,,,,,,,,,,,,Done,,,DPOA-840,DPOA-1655,Azure Enhancements AMJ23,AMJ.23.6,,,113962.0,Azure Enhancements AMJ23,,,,,,,,,,Confluence,,,,,AFMD-524,,,DPOA-1752,DPOA-1893,,,ITS-33,ITS-36,DPOA-1951,,,,,,,,,,,,,,,,,,,,,
+Work on TSS Remediation PI.AMJ.23 for medium risk issues,DPOA-1730,122733,Story,Done,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,01/Apr/23 5:25 AM,09/Jun/23 3:40 AM,09/Jun/23 3:40 AM,09/Jun/23 3:40 AM,,0,"Issues available at: [Issues | Wiz Portal|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))))]
+
+*Medium* severity issues
+
+* 2 [VM instance/serverless with cleartext cloud keys allowing access to external accounts (both DSL VMs)|https://app.wiz.io/issues#~(filters~(resourceTag~(TAG_CONTAINS_ANY~(~(key~'Application_Id~value~'CI003427367)))~control~(equals~(~'wc-id-259)))~groupBy~'none)]
+
+!image-20230401-093231.png|width=1053,height=266!
+
+!image-20230401-093242.png|width=1015,height=273!
+
+Access to [http://app.wiz.io|http://app.wiz.io|smart-link] has been requested. Work on getting access to VMs to identify issues.",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,01/Apr/23 5:32 AM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230401-093231.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/21720,,,,,Identified issue root cause.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i09kzw:r,,,,,,,,,,0.2,,,,,,,,,,,,,,Something else,2023-04-05 10:42:25.627,,05/Apr/23 3:52 AM;61029d08627b560068c8a078;Contact [walo.r@pg.com|mailto:walo.r@pg.com] or [heitkamp.cr@pg.com|mailto:heitkamp.cr@pg.com] to ask about the issue. How to identify it.,"05/Apr/23 3:52 AM;61029d08627b560068c8a078;Contact {{ederango.jr to as about access to wizz.io.}}
+
+Access Request ID: 9610355",Done,Szymon Osiecki,61029d08627b560068c8a078,,DPOA-1643,Overall Architecture/Tech Debt AMJ23,AMJ.23.1,AMJ.23.2,05/Apr/23 6:42 AM;6405ed610e0ddcdce18e3980;Contacted {{ederango.jr}} in regards to the access to wizz.io,113532.0,Overall Architecture/Tech Debt AMJ23,DPOA-1838,01/Apr/23 5:32 AM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230401-093242.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/21721,,,,Szymon Osiecki,61029d08627b560068c8a078,,,,"12/Apr/23 3:02 PM;61029d08627b560068c8a078;The following changes you requested for identity 'borowiak.p' were APPROVED.
+
+|*Display Value(s):*|WIZ-Global-Graph-Reader|","24/Apr/23 10:09 AM;6405ed610e0ddcdce18e3980;Contacted [walo.r@pg.com|mailto:walo.r@pg.com], and he recommended to contact *Krawczyk, Marcin or Heitkamp, Christopher*
+
+I already contacted them and waiting for response. 
+
+----
+
+Access to [wiz.io|http://wiz.io] granted, I am able to access site","25/Apr/23 9:12 AM;6405ed610e0ddcdce18e3980;Heitkamp, Christopher to provide the preliminary information and schedule a call to check the issue.",,,,,,,,,DPOA-1740,DPOA-1664,,AMJ.23.3,AMJ.23.4,AMJ.23.5,"28/Apr/23 6:51 AM;6405ed610e0ddcdce18e3980;Call with *Krawczyk, Marcin or Heitkamp, Christopher* needed. ",24/May/23 7:19 AM;6405ed610e0ddcdce18e3980;Arek Glinka to delete the resources from the DS Launchpad VMs.,29/May/23 8:57 AM;6405ed610e0ddcdce18e3980;Arek Glinka deleted the resources. Waiting for the [Wiz.io|http://Wiz.io] to delete the alert. ,"07/Jun/23 5:17 AM;6405ed610e0ddcdce18e3980;Christopher confirmed that need to be deleted also here is a cleartext password stored on a azl-dslaunchpad for [sa-dsl-ui@dna-ai-factory-dev-679e.iam.gserviceaccount.com|mailto:sa-dsl-ui@dna-ai-factory-dev-679e.iam.gserviceaccount.com] - /home/glinka.ag/~/.config/gcloud/legacy_credentials/sa-dsl-ui@dna-ai-factory-dev-679e.iam.gserviceaccount.com/adc.json.
+File deleted",,,,,,,,,,,,,,
+Research/discuss needs to provision in non DS Azure subscriptions,DPOA-1694,115740,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Andrew Bloomberg,5b756e39d521620528394596,Andrew Bloomberg,5b756e39d521620528394596,14/Mar/23 10:53 AM,29/Jun/23 10:17 AM,05/Jul/23 8:18 AM,,,0,Only discussion - need to figure out if this is actually needed or not.  Should talk with Pete and others possibly.,,Andrew Bloomberg,5b756e39d521620528394596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i06ozj:o,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,DPOA-1689,GCP and Azure Enhancements JAS23,,,,115718.0,GCP and Azure Enhancements JAS23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ML registries to AML blueprint,DPOA-1690,115722,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,14/Mar/23 9:38 AM,03/Jul/23 3:48 PM,05/Jul/23 8:18 AM,,,0,,,Andrew Bloomberg,5b756e39d521620528394596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i06ozj:oi,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-20 11:38:48.466,,14/Mar/23 9:39 AM;5fff11ae849d6401119514b6;[~accountid:61029d08627b560068c8a078] will add description,20/Jun/23 7:38 AM;5b756e39d521620528394596;[~accountid:5dde91bb7eb2280d03c98dd0] or [~accountid:61029d08627b560068c8a078] can you please add description,To Do,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,DPOA-1689,GCP and Azure Enhancements JAS23,,,,115718.0,GCP and Azure Enhancements JAS23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Add Azure cognitive services to AML blueprint,DPOA-1688,115717,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Radoslaw Wrzesien,5fff11ae849d6401119514b6,Radoslaw Wrzesien,5fff11ae849d6401119514b6,14/Mar/23 9:25 AM,29/Jun/23 10:17 AM,05/Jul/23 8:18 AM,,,0,,,Radoslaw Wrzesien,5fff11ae849d6401119514b6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i06ozj:k,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,14/Mar/23 9:38 AM;5fff11ae849d6401119514b6;[~accountid:61029d08627b560068c8a078] will add description,,To Do,,,,DPOA-1689,GCP and Azure Enhancements JAS23,,,,115718.0,GCP and Azure Enhancements JAS23,DPOA-1779,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Discuss ability to provision resources in regions other than East US 2,DPOA-1258,78015,Story,To Do,DPOA,AI Provisioner,software,Andrew Bloomberg,5b756e39d521620528394596,,https://dslaunchpad.pg.com,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Andrew Bloomberg,5b756e39d521620528394596,Andrew Bloomberg,5b756e39d521620528394596,29/Sep/22 9:43 AM,29/Jun/23 10:18 AM,05/Jul/23 8:18 AM,,,0,"Azure regions beyond US East 2 and China – apparently DS Launchpad is not available today outside of US East 2. We should work towards making it available in all P&G regions. Azure Southeast Asia (Singapore) in particular is needed by the Theia team. They’ve made an interesting comment about this being a “middle ground” environment where they can store anonymized Chinese PII (other than in Azure China). Tactically we should be fine to provision AML manually in Singapore, until DSL is available there.
+
+
+
+Need to have discussion with Pete if this is needed",,Andrew Bloomberg,5b756e39d521620528394596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i06ozj:r,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,DPOA-1689,GCP and Azure Enhancements JAS23,,,,115718.0,GCP and Azure Enhancements JAS23,DPOA-1420,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create a procedure for solving deployment issues in AI Provisioner,ITS-220,135878,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,03/Jul/23 6:20 AM,03/Jul/23 6:21 AM,05/Jul/23 8:18 AM,,,0,Create a procedure and automation to solve deployment errors from AIP,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fw7n:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITS-92,Operations Model,,,,126634.0,Operations Model,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Investigate issues with Actions Runner after Flux v2 update,ITS-219,135870,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,High,,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,03/Jul/23 5:54 AM,03/Jul/23 5:55 AM,05/Jul/23 8:18 AM,,,0,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fw5v:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITS-4,AKS GHAR cluster updates for AMJ.23,,,,116886.0,AKS GHAR cluster updates for AMJ.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create security group for AIF support operations,ITS-218,135825,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,03/Jul/23 3:09 AM,03/Jul/23 6:25 AM,05/Jul/23 8:18 AM,,,0,Create {{ITSG-MLOpsAz-Operations}} security group for the AIF Operations Team.,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,Security group created and all required permissions assigned.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fvwz:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,ITS-94,ITS-92,Operations Model,,,,126634.0,Operations Model,,,,,,,,,,,,,,,,,,,,,,ITS-205,,,,,,,,,,,,,,,,,,,,,,,
+RITM4822722 Enable a connection to Enterprise Subscription.,ITS-217,135720,Story,Review,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,30/Jun/23 5:55 AM,05/Jul/23 5:33 AM,05/Jul/23 8:18 AM,,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D55ce0c841b3b2554251e0ed8cc4bcb24%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D55ce0c841b3b2554251e0ed8cc4bcb24%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|smart-link] 
+
+
+
+Brazil OSB Orchestration is a project that will impact order management in Brazil. This is part of the D&A One JBP.
+
+Create a connection from:
+
+Subscription: PG-NA-External-NonProd-08
+Resource Group: AZ-RG-AIP-MLWLAPS
+Resource: mlwLAPS
+
+To
+
+Subscription: PG-NA-Enterprise-NonProd-04
+Resource Group: AZ-RG-SIMPLEMENT-QA-02
+Resource:
+[azw-simpl01qa.np-cloud-pg.com|http://azw-simpl01qa.np-cloud-pg.com]
+[azw-simpl02qa.np-cloud-pg.com|http://azw-simpl02qa.np-cloud-pg.com]
+
+You will find a PDF with the instruction with eForms. This has been already discussed with AIF Architect Pawel Bober. Feel free to engage:
+
+Product Owner: Erick Munoz
+Engineering Lead: Juan Brandao",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fvcr:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4819620 Not able to access KeyVault,ITS-215,135575,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,28/Jun/23 11:40 AM,03/Jul/23 6:23 AM,29/Jun/23 5:42 AM,,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D909201f31be3a11408c20ed8cc4bcbe1%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D909201f31be3a11408c20ed8cc4bcbe1%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|smart-link] 
+
+I'm working on VDI and I'm not able to access mlwpyrogaidevelqg6o1ekv KeyVault because of ""Firewall is turned on and your client IP address is not authorized to access this key vault.""
+
+resource group: AZ-RG-API-MLWPYROGAIDEVEL
+subscrpition id: 4a4e68bf-6a30-454d-ab2d-3bc514a605d7",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fujv:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-07-03 10:23:14.428,,"03/Jul/23 6:23 AM;61029d08627b560068c8a078;Sent an email to Rich Weaver, Austin Choi and others about finding a system solution for accessing Key Vaults from VDIs.",,In Progress,Szymon Osiecki,61029d08627b560068c8a078,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create new L3 queue in ServiceNow and reassign people,ITS-208,135447,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Pawel Borowiak,6405ed610e0ddcdce18e3980,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,27/Jun/23 8:47 AM,30/Jun/23 6:15 AM,29/Jun/23 8:28 AM,,,0,"Talk to Hubert Modzelewski about creating new queue: {{P&G_ITS_MLOPS_AZ_L3}}?
+
+Reassign the following people from {{P&G_ITS_MLOPS_AZ}}:
+
+* Szymon Osiecki
+* Paweł Borowiak
+* Kamil Gajek
+* Jagjeet Singh
+* Aleksander Kamczyc
+
+to the new {{L3L4}} queue.",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,,,,,,New queue created and people reassigned.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0ftuj:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-29 12:28:15.711,,29/Jun/23 8:28 AM;6405ed610e0ddcdce18e3980;Queue request created. To be done until next week. SLA to be added from AI Provisioner  ,"29/Jun/23 8:29 AM;6405ed610e0ddcdce18e3980;Hubert Modzelewski, will confirm when the queue will be ready.",In Progress,Szymon Osiecki,61029d08627b560068c8a078,,ITS-92,Operations Model,,,,126634.0,Operations Model,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Set up Security Groups for AIF support,ITS-205,135034,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,maciej znalezniak,63c927cee28ec74364cc8f59,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,23/Jun/23 6:12 AM,03/Jul/23 6:25 AM,05/Jul/23 8:18 AM,,,0,"Please propose the security group setup similar to the one in CICD support.
+
+
+
+After discussion with Kamil Gajek, we decided together that the best solution would be to add new members to the existing ITSG-MLOpsAz-Admin group. Such a solution will not generate unnecessary complications in the future.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0frhf:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,26/Jun/23 5:50 AM;61029d08627b560068c8a078;Create {{ITSG-MLOpsAz-Support}} similar to{{ ITSG-MLOpsAz-Admin}} for the AIF Support members.,30/Jun/23 6:21 AM;61029d08627b560068c8a078;Please provide the list of group members.,In Progress,,,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,ITS-218,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Investigate the issue with prod AKS cluster attachment in AML,ITS-204,135031,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Highest,,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,23/Jun/23 5:40 AM,03/Jul/23 5:52 AM,05/Jul/23 8:18 AM,,,0,"[shared-k8s - Azure AI | Machine Learning Studio|https://ml.azure.com/compute/shared-k8s/details?wsid=/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourcegroups/AZ-RG-AIP-MLWDEV22JUNE6/providers/Microsoft.MachineLearningServices/workspaces/mlwdev22june6&tid=3596192b-fdf5-4e2c-a6fa-acb706c963d8]
+
+{{Provisioning error}}
+
+{{The Azure Machine Learning extension is not installed in this cluster: /subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourceGroups/AZ-RG-AIF-AKS-MT-EastUS2-Prod/providers/Microsoft.ContainerService/managedClusters/aks-aif-mt-prod-5f94}}
+
+The attachment was still working fine on June 13th:
+
+[https://ml.azure.com/compute/aks-aif-mt-prod/details?wsid=/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourcegroups/az-rg-api-mlwpyrogaidevel/providers/Microsoft.MachineLearningServices/workspaces/mlwpyrogaidevel&tid=3596192b-fdf5-4e2c-a6fa-acb706c963d8|https://ml.azure.com/compute/aks-aif-mt-prod/details?wsid=/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourcegroups/az-rg-api-mlwpyrogaidevel/providers/Microsoft.MachineLearningServices/workspaces/mlwpyrogaidevel&tid=3596192b-fdf5-4e2c-a6fa-acb706c963d8]",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0frgz:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITS-3,Central Kubernetes compute for training and inference,,,,116882.0,Central Kubernetes compute for training and inference,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Investigate sftp secured access to storage accounts,ITS-190,133593,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,14/Jun/23 2:42 AM,30/Jun/23 6:00 AM,05/Jul/23 8:18 AM,,,0,"Help ERS team to set up sftp secured access to storage accounts.
+
+Cooperate with Piotr Kropielnicki ([kropielnicki.p@pg.com|mailto:kropielnicki.p@pg.com]) on the task.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fjaz:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-14 08:53:10.132,,"14/Jun/23 4:53 AM;62c7ec27b6357aecd7c7e693;notes:
+[https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-support|https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-support|smart-link] 
+
+[https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-support-how-to|https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-support-how-to?tabs=azure-portal]
+
+[https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-known-issues|https://learn.microsoft.com/en-us/azure/storage/blobs/secure-file-transfer-protocol-known-issues|smart-link] ",,In Progress,Tomasz Zagorowicz,62c7ec27b6357aecd7c7e693,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Investigate issues with pipelines terminated with -9 sigkill,ITS-175,131986,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,kamil gajek,61d425a20586a2006949ffee,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,06/Jun/23 5:35 AM,07/Jun/23 5:41 AM,05/Jul/23 8:18 AM,,,0,[APE-9999: Test pipe 2 · procter-gamble/de-cf-pyrogai@ec54609 (github.com)|https://github.com/procter-gamble/de-cf-pyrogai/actions/runs/5160211177/jobs/9320154164?pr=455],,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fa0b:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,07/Jun/23 5:41 AM;61029d08627b560068c8a078;[APE-9999: Test pipe 2 · procter-gamble/de-cf-pyrogai@ec54609 (github.com)|https://github.com/procter-gamble/de-cf-pyrogai/actions/runs/5160211177/jobs/9374553442],,In Progress,,,,ITS-4,AKS GHAR cluster updates for AMJ.23,,,,116886.0,AKS GHAR cluster updates for AMJ.23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deprovision VDI for Jagjeet,ITS-168,131389,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,31/May/23 5:40 AM,15/Jun/23 7:57 AM,05/Jul/23 8:18 AM,,,0,It is not needed.,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0f6u3:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-02 07:49:04.537,,02/Jun/23 3:49 AM;5dde91bb7eb2280d03c98dd0;Taking backup before decommissioning,15/Jun/23 7:57 AM;5dde91bb7eb2280d03c98dd0;*INC11232030* opened,In Progress,Szymon Osiecki,61029d08627b560068c8a078,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Train new operations team members in AIF,ITS-164,130653,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,maciej znalezniak,63c927cee28ec74364cc8f59,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,29/May/23 6:03 AM,30/Jun/23 6:02 AM,05/Jul/23 8:18 AM,,,0,Olaf Kulawik,,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0f2mr:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-30 10:01:19.451,,"30/Jun/23 6:01 AM;63c927cee28ec74364cc8f59;Entry 28/6/2023
+",30/Jun/23 6:01 AM;63c927cee28ec74364cc8f59;environment setup part 1 29/6/2023,In Progress,Szymon Osiecki,61029d08627b560068c8a078,,ITS-92,Operations Model,,,30/Jun/23 6:02 AM;63c927cee28ec74364cc8f59;environment setup part 2 4/7/2023,126634.0,Operations Model,,,,,,,,,,,30/Jun/23 6:02 AM;63c927cee28ec74364cc8f59;Delet Cloud target - lab 6/7/2023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Operations Model,ITS-108,127080,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Pawel Borowiak,6405ed610e0ddcdce18e3980,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,27/Apr/23 8:59 AM,21/Jun/23 6:36 AM,29/Jun/23 8:28 AM,,,0,"Contact Henriquez, Hernan about GCP SLAs.
+
+Contact CloudOps about SLAs (ask Darek Sętorek).",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,28/Apr/23 8:02 AM;6405ed610e0ddcdce18e3980;GCP_Ops_Overview.pdf;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/22353,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0efrr:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-05-24 11:18:47.075,,"24/May/23 7:18 AM;6405ed610e0ddcdce18e3980;Waiting for the Grzegorz Pudło answer, about the pricing.","07/Jun/23 11:13 AM;6405ed610e0ddcdce18e3980;Internal discussion about the budget alignment aspects between ITS, DXC and AI Factory",In Progress,Szymon Osiecki,61029d08627b560068c8a078,,ITS-92,Operations Model,,,,126634.0,Operations Model,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DXC Support in AI Factory,ITS-94,126636,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,24/Apr/23 12:57 PM,03/Jul/23 3:09 AM,06/Jun/23 8:54 AM,,,0,Secure DXC resources for the operations support in AI Factory.,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0efs3:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITS-92,Operations Model,,,,126634.0,Operations Model,ITS-218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Develop Jira to ADO export,ITS-91,126633,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Pawel Borowiak,6405ed610e0ddcdce18e3980,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,24/Apr/23 11:12 AM,29/May/23 7:36 AM,13/Jun/23 7:58 AM,,,0,We want to have possibility to periodically export all work items from all Jira boards to our ADO Board for monthly reports.,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,We have ability to sync Jira with ADO board.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0efrn:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,"29/May/23 7:28 AM;61029d08627b560068c8a078;* Outline the structure for ADO
+* Prepare migration query to contain all the required fields
+** [Migration - Boards (azure.com)|https://dev.azure.com/pg-cloud/one-portfolio/_queries/query-edit/7531af82-a147-44b3-920f-44d52ed8d7d1/]
+* Create new Area(?) or reuse existing one to limit the migration query
+* Align components in Jira with Tags(?) in ADO
+* Prepare automation for transformation of the export from Jira to be easily imported to ADO
+* Transformation of the work item type in Jira to ADO:
+
+ 
+
+* Jira filter:
+** AI Factory ITS Azure
+
+ 
+
+* project IN (""AI Provisioner"",""AIF Pipeline Engine"",""Steps & API - Barbara"",""AI Factory Model Observability"",mlopsdev,""Programmatic Data Engineering"",""AI Factory Program"",""Azure Accelerators_AI Factory"",""ITS Microsoft"",""AI Factory ITS"") AND assignee IN (currentUser(),61d425a20586a2006949ffee,5dde91bb7eb2280d03c98dd0,63c927cee28ec74364cc8f59,6405ed610e0ddcdce18e3980,62c7ec27b6357aecd7c7e693) AND updated >= -4w ORDER BY key ASC, created DESC","29/May/23 7:35 AM;61029d08627b560068c8a078;* [Jira to Azure DevOps/TFS work item migration tool - Visual Studio Marketplace|https://marketplace.visualstudio.com/items?itemName=solidify.jira-devops-migration]
+* [solidify/jira-azuredevops-migrator: Tool to migrate work items from Atlassian Jira to Microsoft Azure DevOps/VSTS/TFS. (github.com)|https://github.com/solidify/jira-azuredevops-migrator]",In Progress,,,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Investigate default firewall IP whitelist in terraform,ITS-68,125741,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,18/Apr/23 6:45 AM,25/Apr/23 1:28 AM,05/Jul/23 8:18 AM,,,0,"We observed, that users in VDI experience issue accessing Azure resources, e.g. Key-Vaults.
+
+When running the command
+
+{noformat}PS >az keyvault secret list --vault-name mlwforecaster04fbwjkv
+Client address is not authorized and caller is not a trusted service.
+Client address: 155.120.16.92 from unknown subnet{noformat}
+
+The {{155.120.16.92}} i Procter & Gamble reported IP, but it is not included in the default firewall IP whitelist.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,Solved issue for the connectivity.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0eakf:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,"18/Apr/23 6:49 AM;61029d08627b560068c8a078;From the running command:
+
+{noformat}PS C:\Users\dubowik.jd> az keyvault secret list --vault-name mlwforecaster04fbwjkv
+Client address is not authorized and caller is not a trusted service.
+Client address: 155.120.16.92 from unknown subnet
+Caller: appid=04b07795-8ddb-461a-bbee-02f9e1bf7b46;oid=c3dc706a-c15f-4b76-bfa4-ef18128166f8;iss=https://sts.windows.net/3596192b-fdf5-4e2c-a6fa-acb706c963d8/
+Vault: mlwforecaster04fbwjkv;location=eastus2{noformat}
+
+IP reported by [checkip.amazonaws.com|http://checkip.amazonaws.com]
+
+{noformat}PS >curl.exe http://checkip.amazonaws.com
+143.38.130.5{noformat}","24/Apr/23 1:08 PM;61029d08627b560068c8a078;Aktualnie pracujemy na tym RG i też jest ten sam problem z KV z VDI:
+
+[https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWFFACTORYDEV01/providers/Microsoft.KeyVault/vaults/mlwffactorydev012jem9nkv/overview|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWFFACTORYDEV01/providers/Microsoft.KeyVault/vaults/mlwffactorydev012jem9nkv/overview]",In Progress,,,,ITS-9,AzMLOps other tasks,,,"25/Apr/23 1:28 AM;61029d08627b560068c8a078;Sent reminder email to Austin Choi and Elvira Blinoff, asking if 155.120.0/16 CIDR range should be added to the whitelist on Azure resources.",116906.0,AzMLOps other tasks,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create wiki for release control in AI Provisioner,ITS-58,125720,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Lowest,,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,18/Apr/23 4:57 AM,09/Jun/23 5:23 AM,05/Jul/23 8:18 AM,,,0,,,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0eag7:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITS-12,Internal documentation,,,,116919.0,Internal documentation,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Create WIki About k8s in AI Factory Platform,ITS-57,125719,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Lowest,,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,18/Apr/23 4:57 AM,09/Jun/23 5:23 AM,05/Jul/23 8:18 AM,,,0,,,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0eafz:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITS-12,Internal documentation,,,,116919.0,Internal documentation,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Automate workload identity deployment for Rhea,ITS-33,116999,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,22/Mar/23 8:23 AM,22/May/23 10:56 AM,05/Jul/23 8:18 AM,,,0,"[https://learn.microsoft.com/en-us/azure/aks/csi-secrets-store-identity-access#use-azure-ad-workload-identity-preview|https://learn.microsoft.com/en-us/azure/aks/csi-secrets-store-identity-access#use-azure-ad-workload-identity-preview]
+
+Set up secure SCP using workload identity for getting sensitive secret from KeyVault into AKS cluster.
+
+Can be used e.g. to get GH App certificates and secrets for Action Runners and monitoring.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0cw12:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,24/Apr/23 12:45 PM;61029d08627b560068c8a078;Need to review [https://jira-pg-ds.atlassian.net/browse/DPOA-1753|https://jira-pg-ds.atlassian.net/browse/DPOA-1753|smart-link] story.,,In Progress,,,,ITS-3,Central Kubernetes compute for training and inference,,,,116882.0,Central Kubernetes compute for training and inference,,,,,,,,DPOA-1753,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deploy and configure prod cluster,ITS-32,116998,Story,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,22/Mar/23 8:23 AM,22/May/23 10:56 AM,05/Jul/23 8:18 AM,,,0,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0cw0y:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,29/Mar/23 6:32 AM;61029d08627b560068c8a078;Created {{AZ-RG-AIF-AKS-MT-EastUS2-Prod}} resource group in {{PG-NA-External-Prod-08}} subscription for cluster deployment.,"29/Mar/23 9:53 AM;61029d08627b560068c8a078;Prod cluster deployed: [aks-aif-mt-prod-5f94 - Microsoft Azure|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourceGroups/AZ-RG-AIF-AKS-MT-EastUS2-Prod/providers/Microsoft.ContainerService/managedClusters/aks-aif-mt-prod-5f94/overview].
+
+App of Apps GitHub repository: [procter-gamble/aks-aif-mt-prod-cluster-aoa: Repository created from the template repository sample-cicd using Terraform (github.com)|https://github.com/procter-gamble/aks-aif-mt-prod-cluster-aoa]",In Progress,,,,ITS-3,Central Kubernetes compute for training and inference,,,29/Mar/23 10:21 AM;61029d08627b560068c8a078;Created cluster admin repository: [procter-gamble/aks-aif-mt-prod-cluster-admin: Admin repository for aks-aif-mt-prod-5f94 AKS cluster (github.com)|https://github.com/procter-gamble/aks-aif-mt-prod-cluster-admin],116882.0,Central Kubernetes compute for training and inference,,,,,,,,,,,25/Apr/23 2:29 AM;61029d08627b560068c8a078;Updated cluster to {{1.24.10}} Kubernetes version.,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Azure Workspaces deployments to other regions,ITS-5,116888,Epic,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Low,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,21/Mar/23 11:30 AM,05/May/23 12:20 AM,05/Jul/23 8:18 AM,,,0,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,Innovation,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,ghx-label-7,Azure Workspaces deployments to other regions.,To Do,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0cvtp:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,,,,,,,,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,PI.AMJ.23-Uncommitted,PI.AMJ.23.OB5,,,,,,,,,
+AKS GHAR cluster updates for AMJ.23,ITS-4,116886,Epic,In Progress,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,21/Mar/23 11:29 AM,03/Jul/23 5:54 AM,05/Jul/23 8:18 AM,,,0,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,Maintenance/Operations,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,ghx-label-10,AKS GHAR cluster - upgrade to v2,To Do,,"No, I have not read the documentation",,blue,,,,,,,,,,1|i0cvg3:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,,,,,,,,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,PI.AMJ.23-Uncommitted,PI.AMJ.23.OB5,,,,,,,,,
+RITM4837749 Add Active Directory Groups to AIF Instances,ITS-223,136181,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,05/Jul/23 5:57 AM,05/Jul/23 6:43 AM,05/Jul/23 8:18 AM,05/Jul/23 6:43 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D33adc47087b36990352b32ec0ebb351e%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D2%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D33adc47087b36990352b32ec0ebb351e%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D2%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|smart-link] 
+
+To create endpoint from
+Workspace: AMA Programmatic
+Project: Programmatic UI
+
+To non AIF environment -
+Subscription:PG-NA-External-Prod-05
+RG:AZ-RG-CoreDataHub-AM-LaunchPad-03
+Name:databricks-cdh-launchpad-am-03",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fxu3:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INC11297583 After error and fix of AAD validation - another submission returned next error,ITS-222,135976,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,03/Jul/23 11:11 AM,05/Jul/23 6:43 AM,05/Jul/23 8:18 AM,05/Jul/23 6:43 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D7474a32d1bbf61d408c20ed8cc4bcb43%26sysparm_record_target%3Dincident%26sysparm_record_row%3D3%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255Eactive%253Dtrue%255EORDERBYnumber|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D7474a32d1bbf61d408c20ed8cc4bcb43%26sysparm_record_target%3Dincident%26sysparm_record_row%3D3%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255Eactive%253Dtrue%255EORDERBYnumber|smart-link] 
+
+potentially RG that was deployed by DEV was there?",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fwpf:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-46,SNow Incidents - Azure,,,,124974.0,SNow Incidents - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INC11297486 Azure Workspace creation failure,ITS-221,135879,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,03/Jul/23 6:20 AM,05/Jul/23 6:43 AM,05/Jul/23 8:18 AM,05/Jul/23 6:43 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D518fd7ed2f3f619422e39bacf699b63a%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D518fd7ed2f3f619422e39bacf699b63a%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|smart-link] 
+
+
+
+Azure Workspace mlwChatPGProd creation failed, which was requested for [kawala.r@pg.com|mailto:kawala.r@pg.com]",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fw7v:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-46,SNow Incidents - Azure,,,,124974.0,SNow Incidents - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4821627 Add Active Directory Groups to AIF Instances,ITS-214,135572,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,28/Jun/23 11:31 AM,03/Jul/23 11:14 AM,05/Jul/23 8:18 AM,03/Jul/23 11:14 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D04f6a6f31b2b6154251e0ed8cc4bcbdd%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D04f6a6f31b2b6154251e0ed8cc4bcbdd%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D3%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|smart-link] 
+
+Please add the following:
+
+Add role: PG ResourceGroup User
+Active Directory: LAEG-AIF-BROSBOrch-Users-NonProd
+RG: AZ-RG-AIP-MLWBROSBORCHDEV
+
+Add role: PG ResourceGroup User
+Active Directory: LAEG-AIF-BROSBOrch-Users-Prod
+RG: AZ-RG-AIP-MLWBROSBORCHPROD",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fuj7:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Script to update,ITS-213,135479,Story,To Do,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,27/Jun/23 1:21 PM,27/Jun/23 1:27 PM,05/Jul/23 8:18 AM,,,0,script to update - you need to make an exception to bypass the maximum character limits and go further,,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,Innovation,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,,,,,,,,,,,1|i0cvv1:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,,,,,,,,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4818558 Enable whitelist to DDAPI interfaces.,ITS-212,135474,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,27/Jun/23 11:10 AM,28/Jun/23 6:00 AM,05/Jul/23 8:18 AM,28/Jun/23 6:00 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dbbd997631b6fa914251e0ed8cc4bcbf4%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dbbd997631b6fa914251e0ed8cc4bcbf4%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|smart-link] 
+
+Need to whitelist to:
+RG: [https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourceGroups/AZ-RG-AIP-MLWBROSBORCHPROD/providers/Microsoft.Storage/storageAccounts/mlwbrosborchprod1cks5tex/overview|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourceGroups/AZ-RG-AIP-MLWBROSBORCHPROD/providers/Microsoft.Storage/storageAccounts/mlwbrosborchprod1cks5tex/overview]
+
+The following vNets:
+vnet-sa-func-filemover-md-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-MasterData04-01
+vnet-sa-func-filemover-ship-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-DirectShipment04-01
+vnet-sa-func-filemover-genpurp-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-DataDeliveryGP-01
+vnet-sa-func-filemover-md-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-MasterData04-01
+vnet-sa-func-filemover-ship-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-DirectShipment04-01
+vnet-sa-func-filemover-genpurp-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-DataDeliveryGP-01",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fu0j:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4819456 Change of CC,ITS-211,135473,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,27/Jun/23 11:09 AM,28/Jun/23 6:00 AM,05/Jul/23 8:18 AM,28/Jun/23 6:00 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D2ae93c7f872bed10352b32ec0ebb3508%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D1%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D2ae93c7f872bed10352b32ec0ebb3508%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D1%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|smart-link] 
+
+Please update the WBS for these RG to CC 1082800175?
+
+AZ-RG-AIP-MLWAMAJARVISDEV and AZ-RG-AIP-MLWAMAJARVISPROD",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fu0b:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INC11279448 Azure Workspace creation failure,ITS-210,135472,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,27/Jun/23 11:08 AM,28/Jun/23 6:00 AM,05/Jul/23 8:18 AM,28/Jun/23 6:00 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D3d2138332fab2dd022e39bacf699b6a7%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D3d2138332fab2dd022e39bacf699b6a7%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|smart-link] 
+
+Azure Workspace mlwProg creation failed, which was requested for [tang.a.2@pg.com|mailto:tang.a.2@pg.com]",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fu03:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-46,SNow Incidents - Azure,,,,124974.0,SNow Incidents - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INC11279508 Workspace AMA Programmatic with ERROR status,ITS-209,135471,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,27/Jun/23 11:07 AM,28/Jun/23 6:00 AM,05/Jul/23 8:18 AM,28/Jun/23 6:00 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D1a047cff8767ed10352b32ec0ebb358f%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D1a047cff8767ed10352b32ec0ebb358f%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|smart-link] 
+
+
+
+Workspace AMA Programmatic with ERROR status. Please check on where this has failed. Otherwise, please delete the workspace as I am unable to do it on AIprovisioner workspace.",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0ftzv:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-46,SNow Incidents - Azure,,,,124974.0,SNow Incidents - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Knowledge sharing with Aleksander Kamczyc for current tasks,ITS-207,135248,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,26/Jun/23 6:08 AM,03/Jul/23 5:52 AM,05/Jul/23 8:18 AM,03/Jul/23 5:52 AM,,0,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fspf:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,ITS-206,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Knowledge sharing with Aleksander Kamczyc regarding AIF AKS clusters,ITS-206,135247,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,kamil gajek,61d425a20586a2006949ffee,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,26/Jun/23 6:07 AM,30/Jun/23 5:53 AM,05/Jul/23 8:18 AM,30/Jun/23 5:53 AM,,0,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fsp7:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,ITS-207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4802582 Enable whitelist to DDAPI interfaces.,ITS-203,134847,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,21/Jun/23 1:26 PM,22/Jun/23 6:06 AM,05/Jul/23 8:18 AM,22/Jun/23 6:06 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D8f1d4be18727ad108f860fa6cebb3591%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D8f1d4be18727ad108f860fa6cebb3591%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|smart-link] 
+
+Need to whitelist to:
+RG: [https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWLAPS/providers/Microsoft.Storage/storageAccounts/mlwlaps70jymlex/networking|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWLAPS/providers/Microsoft.Storage/storageAccounts/mlwlaps70jymlex/networking]
+
+The following vNets:
+vnet-sa-func-filemover-md-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-MasterData04-01
+vnet-sa-func-filemover-ship-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-DirectShipment04-01
+vnet-sa-func-filemover-genpurp-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-DataDeliveryGP-01
+vnet-sa-func-filemover-md-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-MasterData04-01
+vnet-sa-func-filemover-ship-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-DirectShipment04-01
+vnet-sa-func-filemover-genpurp-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-DataDeliveryGP-01",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fqff:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INC11257491 The status of deleting the workspace always is Pending deletion,ITS-198,134601,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,20/Jun/23 5:39 AM,20/Jun/23 6:30 AM,05/Jul/23 8:18 AM,20/Jun/23 6:30 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D606434a5db2b6d1084e65716f4961912%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D606434a5db2b6d1084e65716f4961912%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYnumber|smart-link] 
+
+The status of deleting the workspace always is Pending deletion, including AZ-RG-AIP-MLWTJMKGAISPACE and AZ-RG-DSL-MLWTJMKG",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fp43:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-46,SNow Incidents - Azure,,,,124974.0,SNow Incidents - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4798738 Enable whitelist to DDAPI interfaces.,ITS-197,134600,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,20/Jun/23 5:37 AM,21/Jun/23 5:51 AM,05/Jul/23 8:18 AM,21/Jun/23 5:51 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dcbcf52158763e910352b32ec0ebb354b%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D3%26sysparm_record_rows%3D5%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dcbcf52158763e910352b32ec0ebb354b%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D3%26sysparm_record_rows%3D5%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYDESCapproval_set|smart-link] 
+
+
+
+Need to whitelist to:
+RG: [https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWLAPS/overview|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWLAPS/overview]
+Storage Account: [https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWLAPS/providers/Microsoft.Storage/storageAccounts/mlwlaps70jymlsa/overview|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWLAPS/providers/Microsoft.Storage/storageAccounts/mlwlaps70jymlsa/overview]
+
+The following vNets:
+vnet-sa-func-filemover-md-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-MasterData04-01
+vnet-sa-func-filemover-ship-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-DirectShipment04-01
+vnet-sa-func-filemover-genpurp-prem-p101 with subnet default RG: AZ-RG-CoreDataPlatform-DataDeliveryGP-01
+vnet-sa-func-filemover-md-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-MasterData04-01
+vnet-sa-func-filemover-ship-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-DirectShipment04-01
+vnet-sa-func-filemover-genpurp-prem-p101 with subnet data-mover RG: AZ-RG-CoreDataPlatform-DataDeliveryGP-01",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fp3v:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4799705 Delete Cloud Target.,ITS-196,134599,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,20/Jun/23 5:35 AM,20/Jun/23 6:30 AM,05/Jul/23 8:18 AM,20/Jun/23 6:30 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dfb04f425dba72d10aee4a57305961978%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D5%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dfb04f425dba72d10aee4a57305961978%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D2%26sysparm_record_rows%3D5%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYDESCapproval_set|smart-link] 
+
+Resource group name: AZ-RG-AIP-MLWTJMKGDEV. Azure subscription: PG-NA-External-NonProd-08 (27c0a03b-f477-4c6d-b9a9-608e91d2e83b)",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fp3n:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4799712 Delete Cloud Target.,ITS-195,134598,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,20/Jun/23 5:34 AM,20/Jun/23 6:31 AM,05/Jul/23 8:18 AM,20/Jun/23 6:31 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D688474e5db2b6d1084e65716f4961957%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D5%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D688474e5db2b6d1084e65716f4961957%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D5%26sysparm_record_list%3Dassignment_group.nameSTARTSWITHP%2526G_ITS_MLOPS_AZ%255eactive%253dtrue%255eORDERBYDESCapproval_set|smart-link] 
+
+Resource group name: AZ-RG-DSL-MLWSUN2. Azure subscription: PG-NA-External-NonProd-08 (27c0a03b-f477-4c6d-b9a9-608e91d2e83b)",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fp3f:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Determine if it is possible to download pod image using workload identity,ITS-194,134138,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,15/Jun/23 1:51 PM,03/Jul/23 5:53 AM,05/Jul/23 8:18 AM,03/Jul/23 5:53 AM,,0,"Determine, if it is possible, to download the image for the pod from Azure Container Registry using the workload identity.
+
+From my limited testing, it doesn’t work. We’re using the UAMI for the AML workspace, e.g. [mlwakstest3-uami - Microsoft Azure|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWAKSTEST3/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mlwakstest3-uami/overview], which does have AcrPull role on the ACR: 
+
+!image-20230615-174618.png|width=1224,height=364!
+
+but it cannot download the image from this ACR for a pod created in {{pg-de-cf-project-aks3}} namespace on the {{aks-aif-mt-dev-2924}} even if we specify in the pod to use the workload identity, using the UAMI
+
+{code:yaml}apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    azure.workload.identity/client-id: 58922a6a-8a36-4ea6-ae60-7af314a1b329
+  creationTimestamp: ""2023-06-15T17:10:47Z""
+  labels:
+    azure.workload.identity/use: ""true""
+    kustomize.toolkit.fluxcd.io/name: app-of-apps-apps
+    kustomize.toolkit.fluxcd.io/namespace: app-of-apps
+  name: workload-sa
+  namespace: pg-de-cf-project-aks3{code}
+
+!image-20230615-174901.png|width=1250,height=247!
+
+Determine. If it is possible, to download the image using workload identity, otherwise we need to implement this solution, for the ACR authentication, using AcrPull token:
+
+[https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/|https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/|smart-link] ",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,15/Jun/23 1:51 PM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230615-174618.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fmfv:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-19 08:31:48.196,,19/Jun/23 4:31 AM;62c7ec27b6357aecd7c7e693;[https://learn.microsoft.com/en-us/azure/container-registry/authenticate-kubernetes-options|https://learn.microsoft.com/en-us/azure/container-registry/authenticate-kubernetes-options|smart-link] ,,Done,Tomasz Zagorowicz,62c7ec27b6357aecd7c7e693,ITS-193,ITS-3,Central Kubernetes compute for training and inference,,,,116882.0,Central Kubernetes compute for training and inference,,15/Jun/23 1:51 PM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230615-174901.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Determine if it is possible to download pod image using workload identity,ITS-193,134137,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,kamil gajek,61d425a20586a2006949ffee,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,15/Jun/23 1:44 PM,29/Jun/23 5:37 AM,16/Jun/23 5:34 AM,29/Jun/23 5:37 AM,,0,"Determine, if it is possible, to download the image for the pod from Azure Container Registry using the workload identity.
+
+From my limited testing, it doesn’t work. We’re using the UAMI for the AML workspace, e.g. [mlwakstest3-uami - Microsoft Azure|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWAKSTEST3/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mlwakstest3-uami/overview], which does have AcrPull role on the ACR: 
+
+!image-20230615-174618.png|width=1224,height=364!
+
+but it cannot download the image from this ACR for a pod created in {{pg-de-cf-project-aks3}} namespace on the {{aks-aif-mt-dev-2924}} even if we specify in the pod to use the workload identity, using the UAMI
+
+{code:yaml}apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    azure.workload.identity/client-id: 58922a6a-8a36-4ea6-ae60-7af314a1b329
+  creationTimestamp: ""2023-06-15T17:10:47Z""
+  labels:
+    azure.workload.identity/use: ""true""
+    kustomize.toolkit.fluxcd.io/name: app-of-apps-apps
+    kustomize.toolkit.fluxcd.io/namespace: app-of-apps
+  name: workload-sa
+  namespace: pg-de-cf-project-aks3{code}
+
+!image-20230615-174901.png|width=1250,height=247!
+
+Determine. If it is possible, to download the image using workload identity, otherwise we need to implement this solution, for the ACR authentication, using AcrPull token:
+
+[https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/|https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/|smart-link] ",,kamil gajek,61d425a20586a2006949ffee,,,,,,,,,15/Jun/23 1:50 PM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230615-174618.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fmfn:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-20 08:35:19.122,,"20/Jun/23 4:35 AM;61d425a20586a2006949ffee;I think that we need add more information to deployments or pod to use WI
+
+
+
+{noformat}apiVersion: v1
+kind: Pod
+metadata:
+  name: quick-start
+  namespace: ${SERVICE_ACCOUNT_NAMESPACE}
+  labels:
+    azure.workload.identity/use: ""true"" # <- needed labels on pod level
+spec:
+  serviceAccountName: ${SERVICE_ACCOUNT_NAME} # <- specified SA for authentication.
+  containers:
+    - image: ghcr.io/azure/azure-workload-identity/msal-go
+      name: oidc
+      env:
+      - name: KEYVAULT_URL
+        value: ${KEYVAULT_URL}
+      - name: SECRET_NAME
+        value: ${KEYVAULT_SECRET_NAME}{noformat}
+
+
+this procedure is described here
+
+[https://learn.microsoft.com/en-us/samples/azure-samples/azure-ad-workload-identity-mi/azure-ad-workload-identity-mi/|https://learn.microsoft.com/en-us/samples/azure-samples/azure-ad-workload-identity-mi/azure-ad-workload-identity-mi/|smart-link] 
+
+[https://learn.microsoft.com/en-us/azure/aks/learn/tutorial-kubernetes-workload-identity#deploy-the-workload|https://learn.microsoft.com/en-us/azure/aks/learn/tutorial-kubernetes-workload-identity#deploy-the-workload|smart-link] ","20/Jun/23 4:55 AM;61d425a20586a2006949ffee;in deployments can use
+
+
+{code:yaml}apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: apps-name
+    namespace: namespace-name
+    labels:
+      azure.workload.identity/use: ""true""
+      app: app-label
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-label
+      azure.workload.identity/use: ""true""    
+  template:
+    metadata:
+      labels:
+        azure.workload.identity/use: ""true""      
+        app: app-label
+    spec:
+      serviceAccountName: ${SERVICE_ACCOUNT_NAME} # <- specified SA for authentication.
+      containers:
+      ...{code}",Done,Szymon Osiecki,61029d08627b560068c8a078,,ITS-3,Central Kubernetes compute for training and inference,,,,116882.0,Central Kubernetes compute for training and inference,ITS-194,15/Jun/23 1:50 PM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230615-174901.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Verify managed identity authentication on AIP provisioned workspaces,ITS-192,133624,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,14/Jun/23 5:55 AM,21/Jun/23 6:36 AM,21/Jun/23 8:20 AM,21/Jun/23 6:36 AM,,0,"Run the script: [https://github.com/procter-gamble/azure-mlops-dev/blob/develop/src/pipeline_v2_check.py|https://github.com/procter-gamble/azure-mlops-dev/blob/develop/src/pipeline_v2_check.py]
+
+on few newly created AML workspaces, by modifying the {{.azureml/config.json}}file, to confirm, that the ManagedIdentity is working as expected for the authentication inside pipelines.
+
+Example workspaces:
+
+* /subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIP-MLWSZYMONOSDEV01/providers/Microsoft.MachineLearningServices/workspaces/mlwszymonosdev01
+* /subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourceGroups/AZ-RG-AIP-MLWDEVREL780/providers/Microsoft.MachineLearningServices/workspaces/mlwdevrel780",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fji3:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-14 14:31:45.004,,"14/Jun/23 10:31 AM;6405ed610e0ddcdce18e3980;Verification Failed, Ticket to microsoft created.",,Done,Szymon Osiecki,61029d08627b560068c8a078,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Add additional labels on the created namespaces for billing purposes,ITS-191,133621,Story,To Do,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,14/Jun/23 5:40 AM,14/Jun/23 5:41 AM,05/Jul/23 8:18 AM,,,0,"Identify tags that should be put into labels on AKS namespaces provisioned by AIP.
+
+Request implementing changes in AIP during AKS attachment.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fjhf:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,ITS-3,Central Kubernetes compute for training and inference,,,,116882.0,Central Kubernetes compute for training and inference,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4772213 whitelist the blob storage mlwhdcababy9b6lijex,ITS-188,133297,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,12/Jun/23 9:04 AM,13/Jun/23 5:32 AM,05/Jul/23 8:18 AM,13/Jun/23 5:32 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dbd45b8b9875bed50c48a2fc6cebb3564%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3Dbd45b8b9875bed50c48a2fc6cebb3564%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|smart-link] 
+
+
+
+sub id: 4a4e68bf-6a30-454d-ab2d-3bc514a605d7
+RG: AZ-RG-AIP-MLWHDCABABY
+
+please whitelist the blob storage mlwhdcababy9b6lijex-- vnet-sa-func-filemover-genpurp-prem-p101 with subnet data-mover
+
+also please authenticate data mover for Product Supply -- AZ-App-DataDelivery-DataMover-GP-PROD on  blob storage mlwhdcababy9b6lijex
+
+thanks",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fhp7:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4774107 Delete Cloud Target.,ITS-187,133116,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,09/Jun/23 9:06 AM,13/Jun/23 5:32 AM,05/Jul/23 8:18 AM,13/Jun/23 5:32 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D4fac504a8797a990cf74c9d8cebb35ba%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D4fac504a8797a990cf74c9d8cebb35ba%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_row%3D1%26sysparm_record_rows%3D2%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255estate%253d-5%255eORstate%253d30%255eORstate%253d1%255eORstate%253d104%255eORstate%253d%255eORstate%253d2%255eORDERBYDESCapproval_set|smart-link] 
+
+
+
+Resource group name: AZ-RG-AIP-MLWADELTEST. Azure subscription: PG-NA-External-NonProd-08 (27c0a03b-f477-4c6d-b9a9-608e91d2e83b)",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fgob:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RITM4760799 change ownership of azure workspace,ITS-176,131993,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,06/Jun/23 6:02 AM,09/Jun/23 5:34 AM,05/Jul/23 8:18 AM,09/Jun/23 5:34 AM,,0,"[https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D2a5446b4dbdfa910aee4a5730596195c%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|https://pgglobalenterprise.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D2a5446b4dbdfa910aee4a5730596195c%26sysparm_record_target%3Dsc_req_item%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Dassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255Estate%253D-5%255EORstate%253D30%255EORstate%253D1%255EORstate%253D104%255EORstate%253D%255EORstate%253D2%255EORDERBYDESCapproval_set|smart-link] 
+
+Azure workspace: [https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourceGroups/AZ-RG-AIP-MLWHDCABABY/overview|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/4a4e68bf-6a30-454d-ab2d-3bc514a605d7/resourceGroups/AZ-RG-AIP-MLWHDCABABY/overview]
+
+# Can you change its WBS ? the new WBS would be
+Cost center - 1000539701
+WBS - 1.357.0005.7766.S1001130
+# Also can you transfer the product instance in MEGA to them? 
+# if there is anything related to cost, it should use WBS - 1.357.0005.7766.S1001130",,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fa1f:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,Done,,,,ITS-47,SNow RITMs - Azure,,,,124975.0,SNow RITMs - Azure,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Implement cost billing on shared clusters,ITS-157,130553,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,26/May/23 4:35 AM,03/Jul/23 5:53 AM,15/Jun/23 5:47 AM,03/Jul/23 5:53 AM,,0,"Currently used solution
+
+[https://developerportal.pg.com/docs/default/component/kubernetes_documentation/Kubecost/Deployment/|https://developerportal.pg.com/docs/default/component/kubernetes_documentation/Kubecost/Deployment/]
+
+AKS team has a business license and can give it for 20-30 nodes. License is ending by the end of fiscal but it will be renewed.
+
+Kalian is the main technical contact (p[uli.teja@mindtree.com)|mailto:puli.teja@mindtree.com]
+
+Billing isn’t fully automated - based on the business license, the detailed report is being created.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,14/Jun/23 10:43 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;cumulative-cost-for-last-7-days-by-namespace-1686753737806.csv;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23571,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0cw12:o,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-05-29 09:44:23.416,,"29/May/23 5:44 AM;62c7ec27b6357aecd7c7e693;place to test solution
+
+[https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIF-AKS-MT-EastUS2-Dev/providers/Microsoft.ContainerService/managedClusters/aks-aif-mt-dev-2924/overview|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIF-AKS-MT-EastUS2-Dev/providers/Microsoft.ContainerService/managedClusters/aks-aif-mt-dev-2924/overview]","14/Jun/23 5:37 AM;62c7ec27b6357aecd7c7e693;Business version of Kubecost has been installed on your cluster - *aks-aif-mt-dev-2924.*
+
+ 
+
+Please access the kubecost UI using below steps and let us know if any issues.
+
+ 
+
+# Login to aks cluster using az commands
+# Then do port-forward of kubecost service on 9090 port
+
+*kubectl port-forward service/kubecost-kubecost-cost-analyzer -n kubecost 9090*
+
+# Then access kubecost UI on browser using [http://localhost:9090|https://urldefense.com/v3/__http:/localhost:9090__;!!NgSi4SaN6ydtRVQ-!0_g6pwW7-OVd3asM9zcouPu1Skr8JHAR5GWySREdxcCAZM6H23BLQbBTUgmN7LEeffMKFe0n-MQ8MUPPlvzjsLEh$]
+
+ 
+
+Please be informed that kubecost should be port-forwarded on 9090 port only (source:destination 9090:9090).",Done,Tomasz Zagorowicz,62c7ec27b6357aecd7c7e693,,ITS-3,Central Kubernetes compute for training and inference,,,"14/Jun/23 10:42 AM;62c7ec27b6357aecd7c7e693;some screens related to cost analisys
+
+!image-20230614-143456.png|width=1130,height=840!
+
+possible aggregation types. Multi aggregation own exactly same option
+
+!image-20230614-143517.png|width=50%!
+
+possible time scopes
+
+!image-20230614-143533.png|width=510,height=365!
+
+edit options in report:
+
+!image-20230614-143621.png|width=437,height=806!
+
+chart type: cost over time
+
+!image-20230614-143817.png|width=1084,height=424!
+
+chart type: treemap
+
+!image-20230614-143808.png|width=1055,height=740!",116882.0,Central Kubernetes compute for training and inference,,14/Jun/23 10:43 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;hourly-cost-for-last-7-days-by-namespace-1686753644818.csv;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23570,14/Jun/23 10:42 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230614-143456.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23565,14/Jun/23 10:42 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230614-143517.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23566,14/Jun/23 10:42 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230614-143533.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23569,Szymon Osiecki,61029d08627b560068c8a078,,,,"14/Jun/23 10:44 AM;62c7ec27b6357aecd7c7e693;option to download data + sample outputs
+
+!image-20230614-144345.png|width=1130,height=398!","21/Jun/23 6:24 AM;61029d08627b560068c8a078;Evaluate if it is possible to export reports, including namespace labels to do the categorisation.","27/Jun/23 5:22 AM;62c7ec27b6357aecd7c7e693;[https://docs.kubecost.com/apis/apis-overview/cloud-cost-api|https://docs.kubecost.com/apis/apis-overview/cloud-cost-api|smart-link] 
+
+there is possible to use API calls which will generate standard json output.
+ConvertFrom-Json | ConvertTo-csv",,,,,,,,,ITS-35,,,,,,,,,,,,,,,14/Jun/23 10:42 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230614-143621.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23564,14/Jun/23 10:42 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230614-143808.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23567,14/Jun/23 10:42 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230614-143817.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23568,14/Jun/23 10:44 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230614-144345.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23572,,,,,
+Test IPA integration on dev cluster,ITS-156,130163,Story,To Do,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,22/May/23 10:59 AM,30/Jun/23 5:58 AM,05/Jul/23 8:18 AM,,,0,"Rhea details from Dario
+
+* name of the branch: {{fluxcd-deployment}} (orphan branch)
+* hostname: {{ipa.pg.com}}
+* different namespaces
+
+Test on [aks-aif-mt-dev-2924 - Microsoft Azure|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIF-AKS-MT-EastUS2-Dev/providers/Microsoft.ContainerService/managedClusters/aks-aif-mt-dev-2924/overview] cluster.
+
+Register {{ipa-dev.pg.com}} and point it to the above cluster Istio gateway.
+
+Link to IPA templates
+[de-cf-pyrogai/src/aif/ipa/deployment/helm/ipa/templates at APE-312 · procter-gamble/de-cf-pyrogai · GitHub|https://github.com/procter-gamble/de-cf-pyrogai/tree/APE-312/src/aif/ipa/deployment/helm/ipa/templates]
+We need to ask [~accountid:5d94512e4af8460dd5579d2b] , to generate a template of an IPA application for us to test it.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0fjhj:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,ITS-3,Central Kubernetes compute for training and inference,,,,116882.0,Central Kubernetes compute for training and inference,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Evaluate backstop policies for AML,ITS-97,126639,Story,To Do,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,24/Apr/23 1:13 PM,03/Jul/23 5:42 AM,05/Jul/23 8:18 AM,,,0,"We still observe backtop removing roles from AML resources, which may cause issues with the service reliability.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,Backstop in no longer removing role assignments from AML resources.,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0efsr:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Investigate pipeline for cleaning images,ITS-59,125721,Story,To Do,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Low,,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,maciej znalezniak,63c927cee28ec74364cc8f59,18/Apr/23 4:59 AM,30/Jun/23 5:57 AM,29/Jun/23 5:42 AM,,,0,,,maciej znalezniak,63c927cee28ec74364cc8f59,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0eagf:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,ITS-9,AzMLOps other tasks,,,,116906.0,AzMLOps other tasks,,,,,,,,,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Automate workspace namespace provisioning in shared AKS,ITS-38,117162,AIF Dependency,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Szymon Osiecki,61029d08627b560068c8a078,Serik Jilkishiyev,63cfe8375a23f7e717cdbd3e,Serik Jilkishiyev,63cfe8375a23f7e717cdbd3e,23/Mar/23 11:29 AM,05/Jul/23 7:07 AM,05/Jul/23 8:18 AM,05/Jul/23 7:07 AM,,0,"Commit to dedicated AKS flux monitored repository, the namespace(s) definition(s) dedicated for deployed workspace.",,Serik Jilkishiyev,63cfe8375a23f7e717cdbd3e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,As Planned,Hard,{},,,,,,,"No, I have not read the documentation",,,,,,,,AMJ.23.4,,,,1|i0cw12:i,,,,AIF ITS,,,,,,,,,,,,,,,,,,,,Something else,2023-04-24 16:44:21.292,,24/Apr/23 12:44 PM;61029d08627b560068c8a078;It will be implemented in [https://jira-pg-ds.atlassian.net/browse/DPOA-1752|https://jira-pg-ds.atlassian.net/browse/DPOA-1752|smart-link] ,24/Apr/23 12:45 PM;61029d08627b560068c8a078;Need to review [https://jira-pg-ds.atlassian.net/browse/DPOA-1752|https://jira-pg-ds.atlassian.net/browse/DPOA-1752|smart-link] story.,Done,Szymon Osiecki,61029d08627b560068c8a078,,ITS-3,Central Kubernetes compute for training and inference,,,,116882.0,Central Kubernetes compute for training and inference,,,,,,,,DPOA-1752,DPOA-1893,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,AI Provisioner,,,,
+Flux configuration automation,ITS-36,117015,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,22/Mar/23 10:56 AM,05/Jul/23 7:06 AM,05/Jul/23 8:18 AM,05/Jul/23 7:06 AM,,0,Develop flux configuration automation.,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,Flux configuration automation implemented,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0cw11:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,22/Mar/23 10:56 AM;61029d08627b560068c8a078;Contact Gunnar team about fuxcd configuration guidelines.,24/Apr/23 12:23 PM;61029d08627b560068c8a078;Flux configuration will be implemented in the [https://jira-pg-ds.atlassian.net/browse/DPOA-1753|https://jira-pg-ds.atlassian.net/browse/DPOA-1753|smart-link].,Done,,,,ITS-3,Central Kubernetes compute for training and inference,,,24/Apr/23 12:45 PM;61029d08627b560068c8a078;Need to review [https://jira-pg-ds.atlassian.net/browse/DPOA-1753|https://jira-pg-ds.atlassian.net/browse/DPOA-1753|smart-link] story.,116882.0,Central Kubernetes compute for training and inference,,,,,,,,DPOA-1753,,,,,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deploy and configure dev cluster,ITS-31,116997,Story,Done,ITS,AI Factory ITS,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,22/Mar/23 8:23 AM,05/Jul/23 7:06 AM,05/Jul/23 8:18 AM,05/Jul/23 7:06 AM,,0,,,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0cw0t:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,29/Mar/23 6:28 AM;61029d08627b560068c8a078;Created {{AZ-RG-AIF-AKS-MT-EastUS2-Dev}} resource group in {{PG-NA-External-NonProd-08}} subscription for cluster deployment.,"29/Mar/23 9:53 AM;61029d08627b560068c8a078;Dev cluster deployed: [aks-aif-mt-dev-2924 - Microsoft Azure|https://portal.azure.com/#@pgone.onmicrosoft.com/resource/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourceGroups/AZ-RG-AIF-AKS-MT-EastUS2-Dev/providers/Microsoft.ContainerService/managedClusters/aks-aif-mt-dev-2924/overview].
+
+App of Apps GitHub repository: [procter-gamble/aks-aif-mt-dev-cluster-aoa: Repository created from the template repository sample-cicd using Terraform (github.com)|https://github.com/procter-gamble/aks-aif-mt-dev-cluster-aoa]",Done,,,,ITS-3,Central Kubernetes compute for training and inference,,,29/Mar/23 10:20 AM;61029d08627b560068c8a078;Created admin repository: [procter-gamble/aks-aif-mt-dev-cluster-admin: Admin repository for aks-aif-mt-dev-2924 AKS cluster (github.com)|https://github.com/procter-gamble/aks-aif-mt-dev-cluster-admin],116882.0,Central Kubernetes compute for training and inference,ITS-44,,,,,,,,,,"31/Mar/23 3:39 AM;61029d08627b560068c8a078;Registered new host for the cluster inference: [{color:#ffffff}inference-aif-dev.pg.com{color}|http://inference-aif-dev.pg.com]
+
+Installed azureml extension and attached in mlwdevinfera0 AML workspace.",,,AzureCloud,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#2306200050004038 - Cannot deploy large dolly-12b model to managed online endpoint even with public egress enabled,ITSMS-83,134131,Story,In Progress,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,15/Jun/23 11:17 AM,20/Jun/23 11:22 AM,20/Jun/23 4:00 AM,,,0,"[mlwopenaipldev-qofgy - Azure AI | Machine Learning Studio|https://ml.azure.com/endpoints/realtime/mlwopenaipldev-qofgy?wsid=/subscriptions/27c0a03b-f477-4c6d-b9a9-608e91d2e83b/resourcegroups/AZ-RG-AIP-MLWOPENAIPLDEV/providers/Microsoft.MachineLearningServices/workspaces/mlwOpenAIPlDEV&tid=3596192b-fdf5-4e2c-a6fa-acb706c963d8]
+
+!image-20230615-151811.png|width=728,height=433!",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,15/Jun/23 11:18 AM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230615-151811.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0e4o5:x,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-20 15:22:47.471,,20/Jun/23 11:22 AM;5dde91bb7eb2280d03c98dd0;Case created: [*2306200050004038*|https://portal.azure.com/#view/Microsoft_Azure_Support/SupportRequestDetails.ReactView/id/%2Fsubscriptions%2F27c0a03b-f477-4c6d-b9a9-608e91d2e83b%2Fproviders%2Fmicrosoft.support%2Fsupporttickets%2F2306200050004038]: Managed online endpoint deployment failed even with public egress enabled,,In Progress,Szymon Osiecki,61029d08627b560068c8a078,,ITSMS-1,Support Tickets,,,,124700.0,Support Tickets,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#2306160050002835 - Cannot deploy models from model catalog from workspace with public access disabled,ITSMS-82,134126,Story,In Progress,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,15/Jun/23 10:50 AM,20/Jun/23 11:24 AM,05/Jul/23 8:18 AM,,,0,"In workspaces with public access disabled, when you’re deploying a managed online endpoint, the public egress is disabled by default, which prevents downloading publicly hosted models from OpenAI/HuggingFace (because egress is disabled).
+
+When deploying a model via azure-clie, the public egress is enabled by default even on workspaces with public access disabled, but we don’t know how to deploy OpenAI/HuggingFace models using AzureCLI, so for now, the only way is to enable public access, deploy model from model catalog, disable public access on workspace.
+
+!image-20230615-152045.png|width=707,height=398!",,Jagjeet Singh,5dde91bb7eb2280d03c98dd0,,,,,,,,,15/Jun/23 11:20 AM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;image-20230615-152045.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/23597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0e4o5:y,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-06-20 15:24:21.421,,"15/Jun/23 11:14 AM;61029d08627b560068c8a078;time=""2023-06-15T15:11:59Z"" level=info msg=""trying next host"" error=""failed to do request: Head \""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04\\"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%5C%5C%22:] dial tcp 3.216.34.172:443: i/o timeout"" [host=registry-1.docker.io|http://host=registry-1.docker.io]
+ctr: failed to resolve reference ""[docker.io/philschmi/huggingface-azure:ubuntu22.04|http://docker.io/philschmi/huggingface-azure:ubuntu22.04]"": failed to do request: Head ""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%22:] dial tcp 3.216.34.172:443: i/o timeout
+{""level"":""[ERROR]"",""ts"":""Jun  15 15:11:59"",""logger"":""VMAgent.ImageFetcher"",""caller"":""imagefetcher/image_fetcher.go:641"",""msg"":""ctr pull image failed"",""imageURL"":""[docker.io/philschmi/huggingface-azure:ubuntu22.04"",""error"":""exit|http://docker.io/philschmi/huggingface-azure:ubuntu22.04%22,%22error%22:%22exit] status 1"",""stderr"":""time=\""2023-06-15T15:11:59Z\"" level=info msg=\""trying next host\"" error=\""failed to do request: Head \\\""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04\\\\\\"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%5C%5C%5C%5C%5C%5C%22:] dial tcp 3.216.34.172:443: i/o timeout\"" [host=registry-1.docker.io|http://host=registry-1.docker.io]\nctr: failed to resolve reference \""[docker.io/philschmi/huggingface-azure:ubuntu22.04\|http://docker.io/philschmi/huggingface-azure:ubuntu22.04%5C]"": failed to do request: Head \""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04\\"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%5C%5C%22:] dial tcp 3.216.34.172:443: i/o timeout\n"",""stacktrace"":""[goms.io/azureml/mir/mir-vmagent/pkg/imagefetcher.(*ctrCommandExecutor|http://goms.io/azureml/mir/mir-vmagent/pkg/imagefetcher.(*ctrCommandExecutor]).PullImage\n\t/mnt/vss/_work/1/s/pkg/imagefetcher/image_fetcher.go:641\ngoms.io/azureml/mir/mir-vmagent/pkg/imagefetcher.(*ImageFetcher).PullAllImages.func1.1\n\t/mnt/vss/_work/1/s/pkg/imagefetcher/image_fetcher.go:271\ngoms.io/azureml/mir/mir-vmagent/pkg/common.RetryWithCondition\n\t/mnt/vss/_work/1/s/pkg/common/code_util.go:29\ngoms.io/azureml/mir/mir-vmagent/pkg/common.Retry\n\t/mnt/vss/_work/1/s/pkg/common/code_util.go:22\ngoms.io/azureml/mir/mir-vmagent/pkg/imagefetcher.(*ImageFetcher).PullAllImages.func1\n\t/mnt/vss/_work/1/s/pkg/imagefetcher/image_fetcher.go:269\ngolang.org/x/sync/errgroup.(*Group).Go.func1\n\t/opt/hostedtoolcache/go/1.18.5/x64/pkg/mod/golang.org/x/sync@v0.1.0/errgroup/errgroup.go:75""}
+{""level"":""[ERROR]"",""ts"":""Jun  15 15:11:59"",""logger"":""VMAgent.ImageFetcher"",""caller"":""imagefetcher/image_fetcher.go:272"",""msg"":""Pulling image failed"",""error"":""NonRetriableError, Reason: ctr pull image failed, Error: exit status 1, details: time=\""2023-06-15T15:11:59Z\"" level=info msg=\""trying next host\"" error=\""failed to do request: Head \\\""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04\\\\\\"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%5C%5C%5C%5C%5C%5C%22:] dial tcp 3.216.34.172:443: i/o timeout\"" [host=registry-1.docker.io|http://host=registry-1.docker.io]\nctr: failed to resolve reference \""[docker.io/philschmi/huggingface-azure:ubuntu22.04\|http://docker.io/philschmi/huggingface-azure:ubuntu22.04%5C]"": failed to do request: Head \""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04\\"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%5C%5C%22:] dial tcp 3.216.34.172:443: i/o timeout\n"",""stacktrace"":""[goms.io/azureml/mir/mir-vmagent/pkg/imagefetcher.(*ImageFetcher|http://goms.io/azureml/mir/mir-vmagent/pkg/imagefetcher.(*ImageFetcher]).PullAllImages.func1.1\n\t/mnt/vss/_work/1/s/pkg/imagefetcher/image_fetcher.go:272\ngoms.io/azureml/mir/mir-vmagent/pkg/common.RetryWithCondition\n\t/mnt/vss/_work/1/s/pkg/common/code_util.go:29\ngoms.io/azureml/mir/mir-vmagent/pkg/common.Retry\n\t/mnt/vss/_work/1/s/pkg/common/code_util.go:22\ngoms.io/azureml/mir/mir-vmagent/pkg/imagefetcher.(*ImageFetcher).PullAllImages.func1\n\t/mnt/vss/_work/1/s/pkg/imagefetcher/image_fetcher.go:269\ngolang.org/x/sync/errgroup.(*Group).Go.func1\n\t/opt/hostedtoolcache/go/1.18.5/x64/pkg/mod/golang.org/x/sync@v0.1.0/errgroup/errgroup.go:75""}
+{""level"":""[ERROR]"",""ts"":""Jun  15 15:11:59"",""logger"":""VMAgent.main"",""caller"":""image-fetcher/main.go:36"",""msg"":""Pull images failed: NonRetriableError, Reason: ctr pull image failed, Error: exit status 1, details: time=\""2023-06-15T15:11:59Z\"" level=info msg=\""trying next host\"" error=\""failed to do request: Head \\\""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04\\\\\\"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%5C%5C%5C%5C%5C%5C%22:] dial tcp 3.216.34.172:443: i/o timeout\"" [host=registry-1.docker.io|http://host=registry-1.docker.io]\nctr: failed to resolve reference \""[docker.io/philschmi/huggingface-azure:ubuntu22.04\|http://docker.io/philschmi/huggingface-azure:ubuntu22.04%5C]"": failed to do request: Head \""[https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04\\"":|https://registry-1.docker.io/v2/philschmi/huggingface-azure/manifests/ubuntu22.04%5C%5C%22:] dial tcp 3.216.34.172:443: i/o timeout\n"",""stacktrace"":""main.main.func1\n\t/mnt/vss/_work/1/s/cmd/image-fetcher/main.go:36\nmain.main\n\t/mnt/vss/_work/1/s/cmd/image-fetcher/main.go:61\nruntime.main\n\t/opt/hostedtoolcache/go/1.18.5/x64/src/runtime/proc.go:250""}",20/Jun/23 11:24 AM;5dde91bb7eb2280d03c98dd0;Case created: [*2306160050002835*|https://portal.azure.com/#view/Microsoft_Azure_Support/SupportRequestDetails.ReactView/id/%2Fsubscriptions%2F27c0a03b-f477-4c6d-b9a9-608e91d2e83b%2Fproviders%2Fmicrosoft.support%2Fsupporttickets%2F2306160050002835/portalJourney~/true],In Progress,Szymon Osiecki,61029d08627b560068c8a078,,ITSMS-1,Support Tickets,,,,124700.0,Support Tickets,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2306140050003160 - ManagedIdentity issue,ITSMS-80,133678,Story,Review,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,14/Jun/23 9:38 AM,22/Jun/23 6:16 AM,16/Jun/23 4:33 AM,,,0,"[Support Request: ManagedIdentity issue - Microsoft Azure|https://portal.azure.com/#view/Microsoft_Azure_Support/SupportRequestDetails.ReactView/id/%2Fsubscriptions%2F27c0a03b-f477-4c6d-b9a9-608e91d2e83b%2Fproviders%2Fmicrosoft.support%2Fsupporttickets%2F2306140050003160/portalJourney~/true]
+
+h3. Overview
+
+|Severity|B - Moderate impact|
+|Status|Open|
+|Support request ID|2306140050003160|
+|Created on|Wed, Jun 14, 2023, 3:35:52 PM|
+|Created by|Pawel Borowiak|
+|Contact method|Email: [borowiak.p@pg.com|mailto:borowiak.p@pg.com]|
+|Support plan|Premier|
+
+h3. Details
+
+|Type|Technical|
+|Subscription|PG-NA-External-NonProd-08|
+|Service|Machine Learning|
+|Resource|mlwszymonosdev01|
+|Problem type|Job Creation / Debug a failed job|",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0e4o5:v,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,16/Jun/23 4:34 AM;6405ed610e0ddcdce18e3980;15/06 Pawel and Jagjeet join the call with support and show the error.,"16/Jun/23 4:34 AM;6405ed610e0ddcdce18e3980;Hi Pawel and Jagjeet.
+
+ 
+
+Thank you for your time in our Teams session.
+
+ 
+
+I would like to test the following on your ""default"" cluster:
+
+# Change the minimum number of nodes to 1 update, and check if it fails to start the node.
+
+# Change the number of nodes back to 0 and update.
+
+# Remove the managed identity from the cluster and update
+
+# Configure back the managed identity and update
+
+# Submit the job from the UI
+
+ 
+
+If you are comfortable to do it by yourself, please let me know the results and the associated timestamps.
+
+ 
+
+If not, we can schedule another call. If you are available now, my shift ends in 15 minutes, and we can sync.
+
+ 
+
+We can schedule another call tomorrow. My availability is as follows:
+
+    09:15 - 10:15 UTC+1
+
+    11:30 - 12:00 UTC+1
+
+    14:00 - 17:30 UTC+1
+
+ 
+
+Best regards,
+
+Carlos",In Progress,,,,ITSMS-1,Support Tickets,,,"16/Jun/23 4:35 AM;6405ed610e0ddcdce18e3980;We check the possible solution but it ended up with triggering the same error. 
+Will join on the new meeting with Support",124700.0,Support Tickets,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+[Workspace Hub] Review functionality,ITSMS-66,127775,Story,In Progress,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,04/May/23 6:56 AM,12/Jun/23 11:30 AM,05/Jun/23 5:29 AM,,,0,"Testing the workspace hub
+[+azureml-previews/previews/workspace-hubs at main · Azure/azureml-previews (github.com)+|https://github.com/azure/azureml-previews/tree/main/previews/workspace-hubs]",,Dennis Eikelenboom,712020:87e704b3-9695-4eec-8136-ebd2d1c793e6,,,,,,,,,,,,,,"* Workspace hub authentication to associated resources meets P&Gs requirements. This includes created RBAC + ABAC role assignments, verifying how storage containers are now unique per workspace, and the way secrets are stored between workspaces. Via workspaces.secrets APIs secrets cannot be queried across workspaces.
+* Created workspace hub with required security configuration (network, CMK, with existing associated resources)
+* Verified SDK lean workspace creation path for data science team trials.
+* Please suggest the priority for P&G of the following subresources to become reusable by all workspaces that share a hub: 1) compute instance 2) datastore 3) connections (to Git, private package feeds, cognitive services)",,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0em97:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,Pawel Borowiak,6405ed610e0ddcdce18e3980,,ITSMS-22,Multitenancy Stream,,,,126013.0,Multitenancy Stream,,,,,,,,,,,,,,,,,,,,,,ITSMS-67,ITSMS-68,ITSMS-69,,,,,,,,,,,,,,,,,,,ITSMS-70,ITSMS-71,ITSMS-72
+[Lean workspace deployment] - Evaluate Workspace Hub feature,ITSMS-58,126606,Story,In Progress,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,24/Apr/23 9:00 AM,25/Apr/23 2:35 AM,05/Jul/23 8:18 AM,,,0,"Thank you for the discussion today! I wanted to share the deck attached with you that I’m preparing as private preview guide for Workspace Hubs. In the deck you can find a set of experience mocks for what phase 1 will entail, and also our finalized designs for how we look at serverless compute managed in the Workspace Hub. Alan, I hope this helps illustrate the target state also for you better.
+
+@Osiecki, Szymon I shared today that we are ready to start onboarding P&G to a private preview of Workspace Hubs, having finalized a very first prototype. I can extend next week’s session to be a lab hour to get started. Please confirm whether that works, and please provide the Azure subscription ID’s we should allow-list. For the upcoming exec sync, it may be nice if we can report out on our initial trials with this private preview. I’ll prepare Terraform templates so you can it into your existing workflows.
+
+
+
+In anticipation to tomorrow’s meeting, I’ve invited all your Github aliases for our Azure ML private previews repo.
+
+Here’s the private preview instructions we’ll be going through tomorrow:
+[azureml-previews/previews/workspace-hubs at main · Azure/azureml-previews (github.com)|https://urldefense.com/v3/__https:/github.com/Azure/azureml-previews/tree/main/previews/workspace-hubs__;!!NgSi4SaN6ydtRVQ-!3armJJNk40sHon8dP0bYJApt2UnRzOVTFR-9QnnZpvaotKIUar8Yqo3irUUPmS0dLA9vw0CcssaHjN-D1HsDNKlJMfx-$].
+
+To get a head start, you may want to install the [private Python SDK version|https://urldefense.com/v3/__https:/github.com/Azure/azureml-previews/tree/main/previews/workspace-hubs*prerequisites__;Iw!!NgSi4SaN6ydtRVQ-!3armJJNk40sHon8dP0bYJApt2UnRzOVTFR-9QnnZpvaotKIUar8Yqo3irUUPmS0dLA9vw0CcssaHjN-D1HsDNMdLf5jQ$] ahead of the meeting. Looking forward to walk you further through tomorrow.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,24/Apr/23 9:02 AM;ug:2b10ad08-2990-4dbe-828d-61c962aafa4a;Workspace Hub - Private Preview Guide.pptx;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/22168,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0ec8x:i,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITSMS-22,Multitenancy Stream,,,,126013.0,Multitenancy Stream,,,,,,,,ITSMS-47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+[Authentication regression in SDK v2],ITSMS-23,126014,Story,In Progress,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,19/Apr/23 6:24 AM,02/Jun/23 11:30 AM,05/Jun/23 5:26 AM,,,0,"With the SDK v2 we've observed authentication regression.
+
+Instead of relying on workspace authentication token we need to authenticate using DefaultAzureCredential().
+
+It creates issues for authentication in Compute Clusters w/o managed identity. We're not sure how to authenticate in Kubernetes compute neither.",,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0ec6j:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,In Progress,,,,ITSMS-19,AzureML SDK v2 adaptation,,,,126008.0,AzureML SDK v2 adaptation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ITSMS-42,,,
+#2306020050002329 - Managed Online Deployment shows Failed state,ITSMS-78,131865,Story,Done,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,Done,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,Pawel Borowiak,6405ed610e0ddcdce18e3980,05/Jun/23 6:25 AM,27/Jun/23 6:00 AM,20/Jun/23 6:01 AM,27/Jun/23 6:00 AM,,0,,,Pawel Borowiak,6405ed610e0ddcdce18e3980,,,,,,,,,,,,,,Online Deployments to show working status,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0e4o5:r,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,"06/Jun/23 8:37 AM;6405ed610e0ddcdce18e3980;Hello Pawel, 
+
+ 
+
+Thank you for raising this ticket, My name is Muna and I am here to help you out within this support ticket.
+
+ 
+
+First of all, I am sorry that the issue is not resolved yet. 
+
+ 
+
+ 
+
+Just to understand the current status at your side and drive the case from where my colleague Adrian left it.
+
+Have you followed the action plan shared by our product team and Adrian back then?
+
+For your reference, below was the last email sent by Adrian:
+
+ 
+
+ 
+
+_“Hello Szymon,_
+ 
+_I have an update on this from the Product Team. When reviewing the endpoint from their side, they notice the following error:_
+ 
+_Status Code: 403 Forbidden_
+_Error Code: UserError_
+_Reason Phrase: Forbidden_
+_Response Body: {""code"":""UserError"",""statusCode"":403,""message"":""Identity(object id: 4c9986f2-c258-4dc1-8a30-b5074518f7da) does not have permissions for Microsoft.MachineLearningServices/workspaces/onlineEndpoints/write actions. Please refer to_ [_https://aka.ms/azureml-auth-troubleshooting_|https://urldefense.com/v3/__https:/aka.ms/azureml-auth-troubleshooting__;!!NgSi4SaN6ydtRVQ-!0UuJuTWMSuh7sZzpcQscvhUMqg-bRKpbqbov4EKILzRZ-5ypBo6aL0uwlqmy4cvk7lH3Z7bmxHDwQENpTnZJYuFNN-w$] _to fix the permissions issue."",""correlation"":{""RequestId"":""c693e62a-d781-40dd-90d5-d1618de9c9d0""}}_
+   _at Microsoft.MachineLearning.ManagementFrontEnd.Services.Clients.ModelManagementServiceClient.Execute[T](Func`1 func) in /mnt/vss/_work/1/s/src/azureml-api/src/ManagementFrontEnd/Services/Clients/ModelManagementServiceClient.cs:line 377_
+   _at Microsoft.MachineLearning.ManagementFrontEnd.Services.Clients.ModelManagementServiceClient.ExecuteAsync[T](Func`1 func) in /mnt/vss/_work/1/s/src/azureml-api/src/ManagementFrontEnd/Services/Clients/ModelManagementServiceClient.cs:line 401_
+   _at Microsoft.MachineLearning.ManagementFrontEnd.Services.Clients.ModelManagementServiceClient.PatchOnlineEndpoint(WorkspaceContext2 workspaceContext, String name, JsonPatchDocument`1 request) in /mnt/vss/_work/1/s/src/azureml-api/src/ManagementFrontEnd/Services/Clients/ModelManagementServiceClient.cs:line 198_
+ 
+_I checked your Azure AD tenant for object ID 4c9986f2-c258-4dc1-8a30-b5074518f7da. I found it is correlated with a resource called “CloudOps-Control-Prod”. Do you have any idea what this is on your end?_
+ 
+_When looking at the Access Control settings for the Workspace, I found that this “CloudOps-Control-Prod” Service Principal is assigned the “PG OpsControl Contributor” role. For deployments to managed online endpoints, we require the full Contributor role on the Resource Group of the Workspace._
+ 
+_Could you test the deployment using a Contributor role assigned on the Resource Group?”_
+ 
+
+I also made another layer of troubleshooting and I was able to find that this app is trying to add tags to the onlineendpoint/deployment. 
+
+ 
+
+Another solution could also be to deactivate this update on the online endpoint. ","06/Jun/23 8:38 AM;6405ed610e0ddcdce18e3980;In response to the points you mention, we are deploying the new endpoints manually using our accounts (They have Owner rights granted on the subscription), rather than the CloudOps-Control-Prod” Service Principal (It is not used to create any endpoints, but to monitor resources deployed in Azure), so we believe that this error is not impacted our case.
+
+We can see from our perspective, that we can create the endpoint successfully in the workspace but after approximately 24h, status for endpoint changes from successful to failed.
+
+With that we suspect that tags are not responsible for the issue either.
+
+Please let me know if there is anything we can provide for that case?",Done,,,,ITSMS-1,Support Tickets,,,07/Jun/23 11:14 AM;6405ed610e0ddcdce18e3980;Internal discussion for Managed Identity and its permissions. ,124700.0,Support Tickets,,,,,,,,,,,20/Jun/23 6:01 AM;6405ed610e0ddcdce18e3980;Endopints still working ,"20/Jun/23 6:01 AM;6405ed610e0ddcdce18e3980;Update from MS side 
+As promised, I checked the logs for the latest deployment you’ve done (mlwdevrel750-vkore/ model1-1) at my side, I still see the 409 error upon deployment update for adding tags,
+
+As there were plenty of Patch operations triggered between  (2023-06-17T06:11:10.000Z) and (2023-06-17T06:11:20.000Z) causing the 409 error.
+
+ 
+
+However, I don’t see 401 errors anymore by the app,  neither updates on online endpoint level, which seems to have resolved the issue at your side.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+[Managed Online Endpoints] - develop policies for Managed Online Endpoints,ITSMS-56,126595,Story,To Do,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Aleksander Kamczyc,621c9573932f0f0071659512,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,24/Apr/23 8:43 AM,03/Jul/23 5:43 AM,05/Jul/23 8:18 AM,,,0,"Develop policies for Managed Online Endpoints to prevent creating public enpoints.
+
+Azure repository with policies:
+
+{{git@github.com:Azure/azure-policy.git}}
+
+
+
+[https://github.com/Azure/azure-policy/tree/master/built-in-policies/policyDefinitions/Machine%20Learning|https://github.com/Azure/azure-policy/tree/master/built-in-policies/policyDefinitions/Machine%20Learning|smart-link] 
+
+[https://github.com/Azure/data-management-zone/tree/main/infra/Policies/PolicyDefinitions/MachineLearning|https://github.com/Azure/data-management-zone/tree/main/infra/Policies/PolicyDefinitions/MachineLearning|smart-link] ",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,25/Apr/23 6:11 AM;451a21be-312a-4ec3-9eda-3d3ce57804fc;image-20230425-100301.png;https://jira-pg-ds.atlassian.net/rest/api/3/attachment/content/22190,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"No, I have not read the documentation",,purple,,,,,,,,,,1|i0efy8:,,,,,,,,,,,,,,,,,,,,,,,,Something else,2023-04-25 10:11:04.402,,"25/Apr/23 6:11 AM;62c7ec27b6357aecd7c7e693;our goal is to block possibility to setup 'enable' in public network access option.
+this should be achieved by Azure Policy
+
+!image-20230425-100301.png|width=856,height=602!",,To Do,Tomasz Zagorowicz,62c7ec27b6357aecd7c7e693,,ITSMS-48,AML Features Research,,,,126566.0,AML Features Research,,,,,,,,ITSMS-49,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Support Tickets,ITSMS-1,124700,Epic,To Do,ITSMS,AIF ITS Microsoft,software,Natalia Klimpel,62557e9c410206006e966da3,,,Medium,,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,Szymon Osiecki,61029d08627b560068c8a078,11/Apr/23 8:02 AM,21/Jun/23 4:57 AM,05/Jul/23 8:18 AM,,,0,"Epic for tracking support tickets related to Azure Machine Learning, Azure Databricks and other services used in AIF - Azure Workspaces application.",,Szymon Osiecki,61029d08627b560068c8a078,,,,,,,,,,,,,,None - ongoing epic,,,,,,,,Better tracking of existing Microsoft Tickets,,,,,,,,,,,,,,,,,,{},,,ghx-label-14,Support Tickets,To Do,,"No, I have not read the documentation",,dark_orange,,,,,,,,,,1|i0e4o5:,,,,,,,,,,,,,,,,,,,,,,,,Something else,,,,,To Do,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
