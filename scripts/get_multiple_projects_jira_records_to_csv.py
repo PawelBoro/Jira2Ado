@@ -14,6 +14,7 @@ https://community.atlassian.com/t5/Jira-questions/Importing-issues-from-JIRA-to-
 conda activate jta
 python -m get_multiple_projects_jira_records_to_csv
 """
+import os
 from io import StringIO
 
 import pandas as pd
@@ -59,12 +60,14 @@ for project_name in project_names:
         jira_data = pd.read_csv(jira_records, sep=",")
 
         # Append the jira_data to the combined_data DataFrame
-        # combined_data = combined_data.append(jira_data)
         combined_data = pd.concat([combined_data, jira_data], ignore_index=True)
 
         print(f"Successful for project '{project_name}' and {criteria}")
 
+# Define the file path for saving the CSV file in the "docs" folder
+folder_path = os.path.join(os.path.dirname(__file__), "docs")
+file_path = os.path.join(folder_path, "get_multiple_projects_jira_records_to_csv.csv")
+
 # Save the combined_data to an Excel file named
-# 'get_multiple_projects_jira_records_to_xlsx.xlsx'
-combined_data.to_csv("get_multiple_projects_jira_records_to_csv.csv", index=False)
+combined_data.to_csv(file_path, index=False)
 print("Created file get_multiple_projects_jira_records_to_csv.csv")
