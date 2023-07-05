@@ -67,4 +67,4 @@ for project_name in project_names:
 # Save the combined_data to an Excel file named
 # 'get_multiple_projects_jira_records_to_xlsx.xlsx'
 combined_data.to_csv("get_multiple_projects_jira_records_to_csv.csv", index=False)
-print("get_multiple_projects_jira_records_to_csv.csv file created")
+print("Created file get_multiple_projects_jira_records_to_csv.csv")
