@@ -1,0 +1,26 @@
+name: j2a_v3
+channels:
+  - pkgs/main
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # Dev
+      - ipykernel
+      - mypy
+      - notebook
+      - pydocstyle
+      - types-requests
+      - jira
+      - jiraone
+      - atlassian-python-api
+      - openpyxl
+      # Machine Learning
+      - matplotlib
+      - pandas
+      - scikit-learn
+      # AzureML
+      - azureml-sdk
+      - azureml-defaults
+      - azureml-widgets
+      - azureml-dataprep[pandas]
