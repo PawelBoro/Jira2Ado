@@ -11,7 +11,7 @@ https://community.atlassian.com/t5/Jira-questions/Fetch-Jira-details-in-excel-us
 https://stackoverflow.com/questions/49614493/feth-jira-details-in-excel-using-python
 https://community.atlassian.com/t5/Jira-questions/Importing-issues-from-JIRA-to-Excel-using-API/qaq-p/1943319
 
-conda activate jta
+conda activate j2a_v2
 python -m get_multiple_projects_jira_records_to_csv
 """
 import os
