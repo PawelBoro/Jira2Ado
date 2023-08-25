@@ -234,10 +234,21 @@ def create_feature_rows(dataframe):
             # Update the current_title
             current_title = title_3
 
+        #     # Delete the value from "Title 3" for "User story" rows
+        # if row["Work Item Type"] == "User story":
+        #     new_rows_df.at[index, "Title 3"] = ""
+
         # Append the original row
         new_rows_df = new_rows_df.append(row, ignore_index=True)
 
     return new_rows_df
+
+
+def delete_title3_for_user_stories(dataframe):
+    # Delete the value from "Title 3" for "User story" rows
+    for index, row in dataframe.iterrows():
+        if row["Work Item Type"] == "User story":
+            dataframe.at[index, "Title 3"] = ""
 
 
 # Path to the csv file generated from Jira
@@ -299,20 +310,19 @@ new_df["Resolved Date"] = current_date + pd.DateOffset(months=3)
 # Filtering the data
 filtered_df = delete_rows_with_empty_work_item_type(new_df)
 
-# Call the function to add new rows from the JSON file
-newest_df = add_rows_to_dataframe(filtered_df, json_file_path)
-
 # Processing DataFrame
-process_df = process_dataframe(newest_df)
 new_dataframe = add_row_above_first_occurrence(filtered_df)
-create_feature_rows = create_feature_rows(filtered_df)
+create_fea_rows = create_feature_rows(filtered_df)
+delete_df = delete_title3_for_user_stories(create_fea_rows)
+
+# Call the function to add new rows from the JSON file
+newest_df = add_rows_to_dataframe(create_fea_rows, json_file_path)
 
 # Display the updated DataFrame
 print(newest_df)
 
 # Save 'new_df' to a CSV file
 newest_df.to_csv("docs/newest_df.csv", index=False)
-process_df.to_csv("docs/process_df.csv", index=False)
 new_dataframe.to_csv("docs/new_dataframe.csv", index=False)
 filtered_df.to_csv("docs/filtered_df.csv", index=False)
-create_feature_rows.to_csv("docs/create_feature_rows.csv", index=False)
+create_fea_rows.to_csv("docs/create_feature_rows.csv", index=False)
