@@ -1,0 +1,42 @@
+[
+    {
+        "ID": 21367,
+        "Work Item Type": "Product",
+        "Title 1": "Agility via Product Management",
+        "Title 2": "",
+        "Title 3": "",
+        "Title 4": "",
+        "Assigned To": "Michal Harasimiuk",
+        "State": "Active",
+        "Iteration Path": "\\Cloud General Sprints",
+        "Area Path": "\\AzureCSE\\SolutionEngineering",
+        "Description": "Adopt DevOps, Agile practices and tools, and customer focused product-centric culture. Create technical foundations and modern reference architectures and blueprints that will position us for faster, easier, and innovative technical solutions. Collaboration / Co-creation with developers and other orgs.",
+        "Acceptance Criteria": "",
+        "PG Business Value": "",
+        "Value Area": "",
+        "Work Category": "Architectural",
+        "Tags": "Agility",
+        "Start Date": "",
+        "Resolved Date": ""
+    },
+    {
+        "ID": 21384,
+        "Work Item Type": "Epic",
+        "Title 1": "",
+        "Title 2": "AI Factory Product",
+        "Title 3": "",
+        "Title 4": "",
+        "Assigned To": "Michal Harasimiuk",
+        "State": "Active",
+        "Iteration Path": "\\Cloud General Sprints",
+        "Area Path": "\\AzureCSE\\SolutionEngineering",
+        "Description": "",
+        "Acceptance Criteria": "",
+        "PG Business Value": "",
+        "Value Area": "Architectural",
+        "Work Category": "",
+        "Tags": "Agility",
+        "Start Date": "1/3/2021  1:00:00 AM",
+        "Resolved Date": ""
+    }
+]
