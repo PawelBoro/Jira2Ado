@@ -3,8 +3,8 @@
 Script synopsis.
 # :example
 scripts/transform_csv.py
+python -m transform_csv
 """
-
 import json
 
 import pandas as pd
