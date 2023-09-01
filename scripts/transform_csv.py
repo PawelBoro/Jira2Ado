@@ -2,7 +2,6 @@
 """
 Script synopsis.
 # :example
-scripts/transform_csv.py
 python -m transform_csv
 """
 import json
@@ -10,9 +9,10 @@ import json
 import pandas as pd
 
 
+# region
 # Defining functions
 def add_rows_to_dataframe(dataframe, jsonfilepath):
-    # Read JSON data from the file
+    """Read JSON data from the file"""
     with open(jsonfilepath, "r") as json_file:
         json_data = json.load(json_file)
 
@@ -26,7 +26,7 @@ def add_rows_to_dataframe(dataframe, jsonfilepath):
 
 
 def delete_rows_with_empty_work_item_type(dataframe):
-    # Use boolean indexing to filter rows where 'Work Item Type' is not empty
+    """Use boolean indexing to filter rows where 'Work Item Type' is not empty"""
     filtered_dataframe = dataframe[dataframe["Work Item Type"] == "User story"]
 
     return filtered_dataframe
@@ -39,7 +39,7 @@ def create_feature_rows(dataframe):
     # Initialize the current_title variable
     current_title = None
 
-    for index, row in dataframe.iterrows():
+    for _, row in dataframe.iterrows():  # Use _ to ignore the row index
         title_3 = row["Title 3"]
 
         if title_3 != current_title:
@@ -64,19 +64,22 @@ def create_feature_rows(dataframe):
                 "Start Date": "",
                 "Resolved Date": "",
             }
-            new_rows_df = new_rows_df.append(new_feature_row, ignore_index=True)
+            new_feature_row_df = pd.DataFrame([new_feature_row])
+            new_rows_df = pd.concat(
+                [new_rows_df, new_feature_row_df], ignore_index=True
+            )
 
             # Update the current_title
             current_title = title_3
 
         # Append the original row
-        new_rows_df = new_rows_df.append(row, ignore_index=True)
+        new_rows_df = pd.concat([new_rows_df, row.to_frame().T], ignore_index=True)
 
     return new_rows_df
 
 
 def delete_title3_for_user_stories(dataframe):
-    # Delete the value from "Title 3" for "User story" rows
+    """Delete the value from "Title 3" for "User story" rows"""
     for index, row in dataframe.iterrows():
         if row["Work Item Type"] == "User story":
             dataframe.at[index, "Title 3"] = ""
@@ -84,7 +87,7 @@ def delete_title3_for_user_stories(dataframe):
 
 
 def change_names(dataframe):
-    # Define a mapping of name changes
+    """Define a mapping of name changes"""
     name_mapping = {
         "Pawel Borowiak": "Borowiak, Pawel",
         "kamil gajek": "Kamil Gajek",
@@ -102,7 +105,7 @@ def change_names(dataframe):
 
 
 def change_status(dataframe):
-    # Define a mapping of name changes
+    """Define a mapping of name changes"""
     status_mapping = {
         "Done": "Closed",
         "To Do": "New",
@@ -124,9 +127,71 @@ def change_status(dataframe):
 
 # Function to update "Acceptance Criteria" for empty values
 def update_acceptance_criteria(dataframe):
-    dataframe["Acceptance Criteria"].fillna("User story completed", inplace=True)
-    return dataframe
+    """Create a copy of the DataFrame to avoid SettingWithCopyWarning"""
+    dataframe_copy = dataframe.copy()
+    # Fill missing values in the "Acceptance Criteria" column
+    dataframe_copy["Acceptance Criteria"].fillna("User story completed", inplace=True)
+    return dataframe_copy
 
+
+def update_dates_based_on_status_resolve(dataframe):
+    """Updating the resolve date column"""
+
+    def calculate_date(row):
+        status = row["State 2"]
+        if status == "Closed":
+            return row["End Date"]
+
+    dataframe["Resolved Date"] = dataframe.apply(calculate_date, axis=1)
+
+
+def update_dates_based_on_status_target(dataframe):
+    """Updating the target date column"""
+    dataframe["End Date"] = ""
+
+    def calculate_date(row):
+        status = row["State 2"]
+        if status == "Under Review":
+            return current_date + pd.DateOffset(weeks=1)
+        elif status == "In Progress":
+            return current_date + pd.DateOffset(months=1)
+        elif status == "New":
+            return current_date + pd.DateOffset(months=2)
+        else:
+            return row["End Date"]
+
+    dataframe["Target Date"] = dataframe.apply(calculate_date, axis=1)
+
+
+def calculate_iteration_path(row):
+    resolved_date = pd.to_datetime(row["Resolved Date"], errors="coerce")
+    target_date = pd.to_datetime(row["Target Date"], errors="coerce")
+
+    if not pd.isnull(resolved_date):
+        month = resolved_date.strftime("%B")  # Get the month name
+        year = str(resolved_date.year)[-2:]  # Get the last two digits of the year
+        return f"one-portfolio\\CSE\\CSE Solution Engineering\\{month}'{year}"
+
+    if not pd.isnull(target_date):
+        current_date = pd.Timestamp.now()
+        month = current_date.strftime("%B")  # Get the current month name
+        year = str(current_date.year)[
+            -2:
+        ]  # Get the last two digits of the current year
+        return f"one-portfolio\\CSE\\CSE Solution Engineering\\{month}'{year}"
+
+    return None  # Return None to indicate no change
+
+
+def update_iteration_path(dataframe):
+    # Apply the custom function to update the "Iteration Path" column
+    dataframe["Iteration Path"] = dataframe.apply(calculate_iteration_path, axis=1)
+
+
+# endregion
+
+
+# region transform
 
 # Path to the csv file generated from Jira
 file_path = "docs/get_multiple_projects_jira_records_to_csv.csv"
@@ -160,6 +225,7 @@ new_columns = [
     "Tags",
     "Start Date",
     "Resolved Date",
+    "Target Date",
 ]
 
 new_df = pd.DataFrame(columns=new_columns)
@@ -177,17 +243,19 @@ new_df["Title 3"] = df.apply(
 new_df["Title 4"] = df["Summary"]
 new_df["Assigned To"] = df["Assignee"]
 new_df["State"] = "New"
-new_df["Iteration Path"] = "one-portfolio\CSE\CSE Solution Engineering\August'23"
+new_df["Iteration Path"] = "one-portfolio\CSE\CSE Solution Engineering"
 new_df["Area Path"] = "\AzureCSE\SolutionEngineering"
 new_df["Description"] = df["Description"]
 new_df["Acceptance Criteria"] = df["Custom field (Acceptance Criteria)"]
 new_df["PG Business Value"] = ""
 new_df["Value Area"] = "Business"
 new_df["Work Category"] = "Business Request"
-new_df["Tags"] = "EE-ProductEnhancement"
+new_df["Tags"] = "EE-AIFactory"
 new_df["Start Date"] = df["Created"]
-new_df["Resolved Date"] = current_date + pd.DateOffset(months=3)
 new_df["State 2"] = df["Status"]
+new_df["End Date"] = df["Resolved"]
+# endregion
+
 
 # Sort 'new_df' by the 'Title 3' column
 new_df.sort_values(by="Title 3", inplace=True)
@@ -216,13 +284,23 @@ last_df = newest_df.copy()
 
 # Save 'newest_df' to a CSV file without the "State 2" column
 newest_df.drop(columns=["State 2"], inplace=True)
+newest_df.drop(columns=["End Date"], inplace=True)
 newest_df.to_csv("docs/first_df.csv", index=False)
 
 # Change the status
 change_status(last_df)
 
-# Create a copy of 'newest_df' and change "State" to "State 2" in the copy
+# Apply the custom function to update the "Resolved Date" column
+
+update_dates_based_on_status_resolve(last_df)
+update_dates_based_on_status_target(last_df)
+
+update_iteration_path(last_df)
+
+# Create a updated file 'last_df.csv'
 last_df["State"] = last_df["State 2"]
 last_df.drop(columns=["State 2"], inplace=True)
+last_df.drop(columns=["End Date"], inplace=True)
 # Save the copy to a CSV file
 last_df.to_csv("docs/last_df.csv", index=False)
+print("Done")
