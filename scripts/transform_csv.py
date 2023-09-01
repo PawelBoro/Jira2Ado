@@ -2,6 +2,7 @@
 """
 Script synopsis.
 # :example
+conda activate j2a_v2
 python -m transform_csv
 """
 import json
@@ -53,14 +54,14 @@ def create_feature_rows(dataframe):
                 "Title 4": "",
                 "Assigned To": "Szymon Osiecki",
                 "State": "New",
-                "Iteration Path": "\\Cloud General Sprints",
+                "Iteration Path": "\\CSE\\CSE Solution Engineering",
                 "Area Path": "\\AzureCSE\\SolutionEngineering",
                 "Description": "",
                 "Acceptance Criteria": "",
                 "PG Business Value": "AI Factory Project delivery",
                 "Value Area": "Business",
                 "Work Category": "",
-                "Tags": "EE-ProductEnhancement",
+                "Tags": "EE-AIFactory",
                 "Start Date": "",
                 "Resolved Date": "",
             }
@@ -170,7 +171,7 @@ def calculate_iteration_path(row):
     if not pd.isnull(resolved_date):
         month = resolved_date.strftime("%B")  # Get the month name
         year = str(resolved_date.year)[-2:]  # Get the last two digits of the year
-        return f"one-portfolio\\CSE\\CSE Solution Engineering\\{month}'{year}"
+        return f"\\CSE\\CSE Solution Engineering\\{month}'{year}"
 
     if not pd.isnull(target_date):
         current_date = pd.Timestamp.now()
@@ -178,9 +179,9 @@ def calculate_iteration_path(row):
         year = str(current_date.year)[
             -2:
         ]  # Get the last two digits of the current year
-        return f"one-portfolio\\CSE\\CSE Solution Engineering\\{month}'{year}"
+        return f"\\CSE\\CSE Solution Engineering\\{month}'{year}"
 
-    return None  # Return None to indicate no change
+    return "\\CSE\\CSE Solution Engineering"
 
 
 def update_iteration_path(dataframe):
@@ -243,13 +244,13 @@ new_df["Title 3"] = df.apply(
 new_df["Title 4"] = df["Summary"]
 new_df["Assigned To"] = df["Assignee"]
 new_df["State"] = "New"
-new_df["Iteration Path"] = "one-portfolio\CSE\CSE Solution Engineering"
+new_df["Iteration Path"] = "\CSE\CSE Solution Engineering"
 new_df["Area Path"] = "\AzureCSE\SolutionEngineering"
 new_df["Description"] = df["Description"]
 new_df["Acceptance Criteria"] = df["Custom field (Acceptance Criteria)"]
 new_df["PG Business Value"] = ""
 new_df["Value Area"] = "Business"
-new_df["Work Category"] = "Business Request"
+new_df["Work Category"] = "Maintenance"
 new_df["Tags"] = "EE-AIFactory"
 new_df["Start Date"] = df["Created"]
 new_df["State 2"] = df["Status"]
