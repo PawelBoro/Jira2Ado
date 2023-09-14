@@ -8,9 +8,12 @@ python -m transform_csv
 import json
 
 import pandas as pd
+from termcolor import colored
+
+print(colored("Start", "blue"))
 
 
-# region
+# region functions
 # Defining functions
 def add_rows_to_dataframe(dataframe, jsonfilepath):
     """Read JSON data from the file"""
@@ -189,10 +192,141 @@ def update_iteration_path(dataframe):
     dataframe["Iteration Path"] = dataframe.apply(calculate_iteration_path, axis=1)
 
 
+def update_feature_start_dates(dataframe):
+    # Initialize a dictionary to store the earliest Start Date for each "Feature" section
+    feature_start_dates = {}
+    feature_title3_dates = {}
+
+    # Initialize variables to keep track of the current "Feature"
+    current_feature = None
+
+    # Iterate through the DataFrame
+    for index, row in dataframe.iterrows():
+        if row["Work Item Type"] == "Feature":
+            # If a new "Feature" is encountered, update the current_feature variable
+            current_feature = row["Title 3"]
+            feature_start_dates[current_feature] = None
+        elif row["Work Item Type"] == "User story" and current_feature:
+            # If it's a "User story" and we have a current_feature, check and update the Start Date
+            if row["Start Date"] and (
+                feature_start_dates[current_feature] is None
+                or row["Start Date"] < feature_start_dates[current_feature]
+            ):
+                feature_start_dates[current_feature] = row["Start Date"]
+                # Capture the "Title 3" date
+                feature_title3_dates[current_feature] = row["Title 3"]
+        else:
+            # If it's not a "User story" or not within a "Feature" section, reset the current_feature
+            current_feature = None
+
+    # Update the "Start Date" in the corresponding "Feature" rows
+    for feature, start_date in feature_start_dates.items():
+        dataframe.loc[
+            (dataframe["Work Item Type"] == "Feature")
+            & (dataframe["Title 3"] == feature),
+            "Start Date",
+        ] = start_date
+
+    return dataframe
+
+
+def update_feature_target_dates(dataframe):
+    # Initialize a dictionary to store the latest date for each "Feature" section
+    feature_latest_dates = {}
+
+    # Initialize variables to keep track of the current "Feature"
+    current_feature = None
+
+    # Iterate through the DataFrame
+    for index, row in dataframe.iterrows():
+        if row["Work Item Type"] == "Feature":
+            # If a new "Feature" is encountered, update the current_feature variable
+            current_feature = row["Title 3"]
+            feature_latest_dates[current_feature] = None
+        elif row["Work Item Type"] == "User story" and current_feature:
+            # If it's a "User story" and we have a current_feature,
+            # check and update the latest date
+            resolved_date = pd.to_datetime(row["Resolved Date"], errors="coerce")
+            target_date = pd.to_datetime(row["Target Date"], errors="coerce")
+
+            if not pd.isna(resolved_date) and not pd.isna(target_date):
+                # Update the latest date for the current "Feature"
+                if feature_latest_dates[current_feature] is None:
+                    feature_latest_dates[current_feature] = max(
+                        resolved_date, target_date
+                    )
+                else:
+                    feature_latest_dates[current_feature] = max(
+                        feature_latest_dates[current_feature],
+                        resolved_date,
+                        target_date,
+                    )
+            elif not pd.isna(resolved_date):
+                # Update the latest date for the current "Feature" with resolved_date
+                if feature_latest_dates[current_feature] is None:
+                    feature_latest_dates[current_feature] = resolved_date
+                else:
+                    feature_latest_dates[current_feature] = max(
+                        feature_latest_dates[current_feature], resolved_date
+                    )
+            elif not pd.isna(target_date):
+                # Update the latest date for the current "Feature" with target_date
+                if feature_latest_dates[current_feature] is None:
+                    feature_latest_dates[current_feature] = target_date
+                else:
+                    feature_latest_dates[current_feature] = max(
+                        feature_latest_dates[current_feature], target_date
+                    )
+
+    # Update the "Target Date" column in the corresponding "Feature" rows
+    for feature, latest_date in feature_latest_dates.items():
+        dataframe.loc[
+            (dataframe["Work Item Type"] == "Feature")
+            & (dataframe["Title 3"] == feature),
+            "Target Date",
+        ] = latest_date
+
+    return dataframe
+
+
+def update_feature_state(dataframe):
+    # Initialize a dictionary to store the state of each "Feature" section
+    feature_states = {}
+
+    # Initialize variables to keep track of the current "Feature"
+    current_feature = None
+
+    # Iterate through the DataFrame
+    for index, row in dataframe.iterrows():
+        if row["Work Item Type"] == "Feature":
+            # If a new "Feature" is encountered, update the current_feature variable
+            current_feature = row["Title 3"]
+            feature_states[current_feature] = set()  # Use a set to store unique states
+        elif row["Work Item Type"] == "User story" and current_feature:
+            # If it's a "User story" and we have a current_feature, update the state
+            state = row["State"]
+            if state:
+                feature_states[current_feature].add(state)
+        else:
+            # If it's not a "User story" or not within a "Feature" section, reset the current_feature
+            current_feature = None
+
+    # Iterate through the "Feature" sections and update their "State" accordingly
+    for feature, states in feature_states.items():
+        if len(states) == 1 and "Closed" in states:
+            dataframe.loc[
+                (dataframe["Work Item Type"] == "Feature")
+                & (dataframe["Title 3"] == feature),
+                "State",
+            ] = "Closed"
+
+    return dataframe
+
+
+print(colored("Functions red", "green"))
 # endregion
 
-
-# region transform
+# region transformations
 
 # Path to the csv file generated from Jira
 file_path = "docs/get_multiple_projects_jira_records_to_csv.csv"
@@ -255,9 +389,12 @@ new_df["Tags"] = "EE-AIFactory"
 new_df["Start Date"] = df["Created"]
 new_df["State 2"] = df["Status"]
 new_df["End Date"] = df["Resolved"]
+
+print(colored("Transformations done", "green"))
 # endregion
 
 
+# region processes
 # Sort 'new_df' by the 'Title 3' column
 new_df.sort_values(by="Title 3", inplace=True)
 
@@ -271,37 +408,50 @@ filtered_df = delete_rows_with_empty_work_item_type(new_df)
 updated_df = update_acceptance_criteria(filtered_df)
 
 # Processing DataFrame
-create_fea_rows = create_feature_rows(updated_df)
-delete_df = delete_title3_for_user_stories(create_fea_rows)
+create_fea_rows_df = create_feature_rows(updated_df)
+delete_df = delete_title3_for_user_stories(create_fea_rows_df)
 
 # Call the function to add new rows from the JSON file
-newest_df = add_rows_to_dataframe(create_fea_rows, jsonfilepath)
+dataframe_add_rows = add_rows_to_dataframe(create_fea_rows_df, jsonfilepath)
 
 # Change the names for ADO
-change_names(newest_df)
+change_names(dataframe_add_rows)
 
 # Create a copy of df
-last_df = newest_df.copy()
+dataframe_later = dataframe_add_rows.copy()
 
 # Save 'newest_df' to a CSV file without the "State 2" column
-newest_df.drop(columns=["State 2"], inplace=True)
-newest_df.drop(columns=["End Date"], inplace=True)
-newest_df.to_csv("docs/first_df.csv", index=False)
+dataframe_add_rows.drop(columns=["State 2"], inplace=True)
+dataframe_add_rows.drop(columns=["End Date"], inplace=True)
+dataframe_add_rows.to_csv("docs/first_df.csv", index=False)
+print(colored("first_df.csv done", "green"))
 
 # Change the status
-change_status(last_df)
+change_status(dataframe_later)
 
 # Apply the custom function to update the "Resolved Date" column
 
-update_dates_based_on_status_resolve(last_df)
-update_dates_based_on_status_target(last_df)
+update_dates_based_on_status_resolve(dataframe_later)
+update_dates_based_on_status_target(dataframe_later)
 
-update_iteration_path(last_df)
+update_iteration_path(dataframe_later)
 
 # Create a updated file 'last_df.csv'
-last_df["State"] = last_df["State 2"]
-last_df.drop(columns=["State 2"], inplace=True)
-last_df.drop(columns=["End Date"], inplace=True)
+dataframe_later["State"] = dataframe_later["State 2"]
+dataframe_later.drop(columns=["State 2"], inplace=True)
+dataframe_later.drop(columns=["End Date"], inplace=True)
+
+dataframe_feature_start_dates = update_feature_start_dates(dataframe_later)
+dataframe_feature_target_dates = update_feature_target_dates(
+    dataframe_feature_start_dates
+)
+dataframe_feature_state = update_feature_state(dataframe_feature_target_dates)
 # Save the copy to a CSV file
-last_df.to_csv("docs/last_df.csv", index=False)
-print("Done")
+dataframe_later.to_csv("docs/last_df.csv", index=False)
+dataframe_feature_start_dates.to_csv("docs/updated_dataframe.csv", index=False)
+dataframe_feature_target_dates.to_csv("docs/updated_dataframe_2.csv", index=False)
+dataframe_feature_state.to_csv("docs/updated_dataframe_3.csv", index=False)
+print(colored("All csv done", "green"))
+# endregion
+
+print(colored("Finish", "blue"))
