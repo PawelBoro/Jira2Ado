@@ -15,6 +15,7 @@ dependencies:
       - jira
       - jiraone
       - atlassian-python-api
+      - termcolor
       # Other
       - PyJWT
       # Machine Learning
