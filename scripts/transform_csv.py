@@ -451,10 +451,10 @@ dataframe_feature_target_dates = update_feature_target_dates(
 )
 dataframe_feature_state = update_feature_state(dataframe_feature_target_dates)
 # Save the copy to a CSV file
-dataframe_later.to_csv("docs/last_df.csv", index=False)
-dataframe_feature_start_dates.to_csv("docs/updated_dataframe.csv", index=False)
-dataframe_feature_target_dates.to_csv("docs/updated_dataframe_2.csv", index=False)
-dataframe_feature_state.to_csv("docs/updated_dataframe_3.csv", index=False)
+# dataframe_later.to_csv("docs/dataframe_later.csv", index=False)
+# dataframe_feature_start_dates.to_csv("docs/feature_start_dates.csv", index=False)
+# dataframe_feature_target_dates.to_csv("docs/feature_target_dates.csv", index=False)
+dataframe_feature_state.to_csv("docs/dataframe_feature_target_dates.csv", index=False)
 print(colored("All csv done", "green"))
 # endregion
 
