@@ -193,7 +193,8 @@ def update_iteration_path(dataframe):
 
 
 def update_feature_start_dates(dataframe):
-    # Initialize a dictionary to store the earliest Start Date for each "Feature" section
+    # Initialize a dictionary to store the earliest Start Date
+    #  for each "Feature" section
     feature_start_dates = {}
     feature_title3_dates = {}
 
@@ -207,7 +208,8 @@ def update_feature_start_dates(dataframe):
             current_feature = row["Title 3"]
             feature_start_dates[current_feature] = None
         elif row["Work Item Type"] == "User story" and current_feature:
-            # If it's a "User story" and we have a current_feature, check and update the Start Date
+            # If it's a "User story" and we have a current_feature,
+            # check and update the Start Date
             if row["Start Date"] and (
                 feature_start_dates[current_feature] is None
                 or row["Start Date"] < feature_start_dates[current_feature]
@@ -216,7 +218,8 @@ def update_feature_start_dates(dataframe):
                 # Capture the "Title 3" date
                 feature_title3_dates[current_feature] = row["Title 3"]
         else:
-            # If it's not a "User story" or not within a "Feature" section, reset the current_feature
+            # If it's not a "User story" or not within a "Feature"
+            #  section, reset the current_feature
             current_feature = None
 
     # Update the "Start Date" in the corresponding "Feature" rows
@@ -308,7 +311,8 @@ def update_feature_state(dataframe):
             if state:
                 feature_states[current_feature].add(state)
         else:
-            # If it's not a "User story" or not within a "Feature" section, reset the current_feature
+            # If it's not a "User story" or not within a "Feature"
+            #  section, reset the current_feature
             current_feature = None
 
     # Iterate through the "Feature" sections and update their "State" accordingly
