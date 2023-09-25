@@ -11,21 +11,29 @@ https://community.atlassian.com/t5/Jira-questions/Fetch-Jira-details-in-excel-us
 https://stackoverflow.com/questions/49614493/feth-jira-details-in-excel-using-python
 https://community.atlassian.com/t5/Jira-questions/Importing-issues-from-JIRA-to-Excel-using-API/qaq-p/1943319
 
-Certificate update  setup-scripts/assets/provision/fix_cert_certs
-
 conda activate j2a_v2
-python -m get_multiple_projects_jira_records_to_csv
+python -m get_multiple_projects_jira_records_to_csv_env
 """
 import os
 from io import StringIO
 
 import pandas as pd
 from atlassian import Jira
-from creds.credentials import api_token, email, project_names, status_criteria
+from creds.credentials import project_names, status_criteria
+from dotenv import load_dotenv
+
+# from creds.credentials import api_token, email, project_names, status_criteria
+
+load_dotenv()
+
+# Access environment variables
+email = os.environ["EMAIL"]
+api_token = os.environ["API_TOKEN"]
+url = os.environ["URL"]
 
 # Log in to the Jira Cloud using the API Token
 jira = Jira(
-    url="https://jira-pg-ds.atlassian.net",
+    url,
     username=email,
     password=api_token,
     cloud=True,
